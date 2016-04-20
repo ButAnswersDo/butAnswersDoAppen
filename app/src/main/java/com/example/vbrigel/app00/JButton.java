@@ -15,5 +15,6 @@ public class JButton extends AppCompatActivity {
 
     public void onBusDoor(View view){
         Toast.makeText(getApplicationContext(),"Bekräftat: Det är fel på dörren", Toast.LENGTH_LONG).show();
+        //Nu ändrar jag koden
     }
 }
