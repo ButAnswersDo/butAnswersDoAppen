@@ -20,10 +20,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Demo JButton"
+        android:text="Vilken del av bussen är det fel på?"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
 
         <ImageButton
         android:layout_width="wrap_content"
@@ -32,10 +33,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/doorbus"
-        android:maxHeight="100dp"
-        android:maxWidth="100dp"
-        android:minHeight="100dp"
-        android:onClick="@{handler.onClickDoorButton}"  />
+            android:onClick="@{handler.onClickDoorButton}"  />
 
     </RelativeLayout>
 

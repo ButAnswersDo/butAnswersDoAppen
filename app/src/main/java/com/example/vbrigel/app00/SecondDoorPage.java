@@ -13,9 +13,16 @@ public class SecondDoorPage extends AppCompatActivity {
         setContentView(R.layout.activity_second_door_page);
 
     }
-    public void onBusDoor(View view){
-        Toast.makeText(getApplicationContext(), "Bekräftat: Det är fel på dörren", Toast.LENGTH_LONG).show();
-        //Nu ändrar jag kodenk
+    public void frontBusDoor(View view){
+        Toast.makeText(getApplicationContext(), "Bekräftat: Det är fel på framdörren", Toast.LENGTH_LONG).show();
+    }
+
+    public void middleBusDoor(View view){
+        Toast.makeText(getApplicationContext(), "Bekräftat: Det är fel på mittendörren", Toast.LENGTH_LONG).show();
+    }
+
+    public void backBusDoor(View view){
+        Toast.makeText(getApplicationContext(), "Bekräftat: Det är fel på bakdörren", Toast.LENGTH_LONG).show();
     }
 }
 
