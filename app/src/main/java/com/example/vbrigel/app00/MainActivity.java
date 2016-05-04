@@ -1,21 +1,25 @@
 package com.example.vbrigel.app00;
 
-import android.app.Activity;
-import android.databinding.DataBindingUtil;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
-import com.example.vbrigel.app00.databinding.ActivityMainBinding;
 import com.firebase.client.Firebase;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         Firebase.setAndroidContext(this);
-        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        MainActivityHandlers handler = new MainActivityHandlers();
-        binding.setHandler(handler);
+
+    }
+    public void onClickDoorButton(View view) {
+
+        Intent nextDoorPage = new Intent (this, SecondDoorPage.class);
+        startActivity(nextDoorPage);
     }
 
     

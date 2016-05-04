@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 <data>
-<variable
-    name="handler"
-    type="com.example.vbrigel.app00.MainActivityHandlers" />
+
 </data>
     <RelativeLayout
     xmlns:tools="http://schemas.android.com/tools"
@@ -32,19 +30,10 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/doorbus"
-            android:onClick="@{handler.onClickDoorButton}"  />
+            android:onClick="onClickDoorButton"  />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton5"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:src="@drawable/questionmark"
-            android:layout_below="@+id/imageButton"
-            android:layout_toLeftOf="@+id/imageButton"
-            android:layout_toStartOf="@+id/imageButton" />
+
+
 
     </RelativeLayout>
 
