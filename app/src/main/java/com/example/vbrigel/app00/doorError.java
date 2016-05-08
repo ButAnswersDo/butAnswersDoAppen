@@ -1,9 +1,9 @@
 package com.example.vbrigel.app00;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 public class doorError extends AppCompatActivity {
 
@@ -13,11 +13,10 @@ public class doorError extends AppCompatActivity {
         setContentView(R.layout.activity_door_error);
     }
 
-    public void doorError(View view){
-        Toast.makeText(getApplicationContext(), "Fel på XXX", Toast.LENGTH_LONG).show();
-        // Här länkar vi sedan till sida nummer fyra(slutsidan).
-        // Intent activityDoorError = new Intent(this, pageNumberFour.class);
-        // startActivity(pageNumberFour);
+    public void doorClicked(View view){
+        System.out.println("XDXDXDXD");
+        Intent nextDoorError = new Intent(this, DoorSendPage1.class);
+        startActivity(nextDoorError);
     }
 
 }
