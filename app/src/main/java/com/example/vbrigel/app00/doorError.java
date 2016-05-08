@@ -13,9 +13,25 @@ public class DoorError extends AppCompatActivity {
         setContentView(R.layout.activity_door_error);
     }
 
-    public void doorClicked(View view){
+    public void frontDoorClicked(View view){
+        HelperClass.setErrorSubCategory("front");
+        send();
+    }
+    public void centreDoorClicked(View view){
+        HelperClass.setErrorSubCategory("mitten");
+        send();
+    }
+    public void backDoorClicked(View view){
+        HelperClass.setErrorSubCategory("bak");
+        send();
+    }
+    public void multipleDoorClicked(View view){
+        HelperClass.setErrorSubCategory("flera");
+        send();
+    }
+
+    private void send(){
         Intent nextDoorError = new Intent(this, DoorSendPage1.class);
         startActivity(nextDoorError);
     }
-
 }

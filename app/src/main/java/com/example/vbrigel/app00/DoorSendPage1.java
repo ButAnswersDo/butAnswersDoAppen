@@ -49,7 +49,7 @@ public class DoorSendPage1 extends AppCompatActivity{
             if (checked3)
                 message = message + "Dörren kan inte öppnas, ";
         Toast.makeText(getApplicationContext(), "Bekräftat: Vi skickar hjälp direkt!", Toast.LENGTH_LONG).show();
-        myFirebaseRef.child(HelperClass.getBusName()).push().setValue("Skicka hjälp direkt. Anledning: " + message + commentText + HelperClass.getMessage());
+        myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getMessage() +" Skicka hjälp direkt. Anledning: " + message + commentText);
         message = "";
 
         Intent backToFirst = new Intent (this, MainActivity.class);
@@ -66,7 +66,7 @@ public class DoorSendPage1 extends AppCompatActivity{
         if (checked3)
             message = message + "Dörren kan inte öppnas, ";
         Toast.makeText(getApplicationContext(), "Bekräftat: Tack för informationen!", Toast.LENGTH_LONG).show();
-        myFirebaseRef.child(HelperClass.getBusName()).push().setValue("Åtgärda dessa fel senare: " + message + commentText2 + HelperClass.getCurrentTimeStamp());
+        myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getMessage()+" Åtgärda dessa fel senare: " + message + commentText2);
         message = "";
 
         Intent backToFirst = new Intent (this, MainActivity.class);

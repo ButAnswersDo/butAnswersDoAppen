@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickDoorButton(View view) {
+        HelperClass.setErrorCategory("Dörrar");
         Intent nextDoorPage = new Intent (this, DoorError.class);
         startActivity(nextDoorPage);
     }

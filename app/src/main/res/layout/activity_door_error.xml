@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vbrigel.app00.doorError">
+    tools:context="com.example.vbrigel.app00.DoorError">
 
 
     <ScrollView
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Felkategori --> Dörrfel"
-            android:id="@+id/textView8"
+            android:id="@+id/heading"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.22" />
 
@@ -39,33 +39,33 @@
             android:layout_width="186dp"
             android:layout_height="wrap_content"
             android:text="Framdörr"
-            android:onClick="doorClicked"
-            android:id="@+id/button3"
+            android:onClick="frontDoorClicked"
+            android:id="@+id/frontButton"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:text="Mittendörr"
-            android:onClick="doorClicked"
-            android:id="@+id/button4"
+            android:onClick="centreDoorClicked"
+            android:id="@+id/midleButton"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:text="Bakdörr"
-            android:id="@+id/button5"
-            android:onClick="doorClicked"
+            android:id="@+id/backButton"
+            android:onClick="backDoorClicked"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:text="Flera dörrar"
-            android:id="@+id/button6"
+            android:id="@+id/multipleButton"
             android:layout_gravity="center_horizontal"
-            android:onClick="doorClicked"/>
+            android:onClick="multipleDoorClicked"/>
 
     </LinearLayout>
     </ScrollView>
