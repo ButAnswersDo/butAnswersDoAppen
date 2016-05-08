@@ -8,6 +8,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 
+
 public class LoginScreen extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +20,9 @@ public class LoginScreen extends Activity {
         startActivity(nextDoorPage);
         final Spinner spinnerbus = (Spinner) findViewById(R.id.spin);
         String busName = spinnerbus.getSelectedItem().toString();
-        HelperClass help = new HelperClass();
-        help.setBusName(busName);
-        Toast.makeText(getApplicationContext(), busName, Toast.LENGTH_LONG).show();
+        //HelperClass help = new HelperClass();
+        HelperClass.setBusName(busName);
+        //Toast.makeText(getApplicationContext(), busName, Toast.LENGTH_LONG).show();
 
     }
 
