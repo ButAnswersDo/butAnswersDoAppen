@@ -20,10 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity
-            android:name=".SecondDoorPage"
-            android:label="@string/title_activity_second_door_page"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".doorError"></activity>
         <activity android:name=".DoorSendPage1"></activity>
     </application>

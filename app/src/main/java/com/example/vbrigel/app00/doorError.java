@@ -14,7 +14,6 @@ public class doorError extends AppCompatActivity {
     }
 
     public void doorClicked(View view){
-        System.out.println("XDXDXDXD");
         Intent nextDoorError = new Intent(this, DoorSendPage1.class);
         startActivity(nextDoorError);
     }

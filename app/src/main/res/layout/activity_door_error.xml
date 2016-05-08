@@ -39,7 +39,7 @@
             android:layout_width="186dp"
             android:layout_height="wrap_content"
             android:text="Framdörr"
-            android:onClick="doorClicked2"
+            android:onClick="doorClicked"
             android:id="@+id/button3"
             android:layout_gravity="center_horizontal" />
 
@@ -47,7 +47,7 @@
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:text="Mittendörr"
-            android:onClick="doorClicked3"
+            android:onClick="doorClicked"
             android:id="@+id/button4"
             android:layout_gravity="center_horizontal" />
 
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="Bakdörr"
             android:id="@+id/button5"
-            android:onClick="doorClicked4"
+            android:onClick="doorClicked"
             android:layout_gravity="center_horizontal" />
 
         <Button
