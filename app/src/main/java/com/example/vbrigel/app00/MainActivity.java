@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickDoorButton(View view) {
-        Intent nextDoorPage = new Intent (this, doorError.class);
+        Intent nextDoorPage = new Intent (this, DoorError.class);
         startActivity(nextDoorPage);
     }
 

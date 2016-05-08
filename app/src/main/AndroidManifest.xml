@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".doorError"></activity>
+        <activity android:name=".DoorError"></activity>
         <activity android:name=".DoorSendPage1"></activity>
     </application>
 

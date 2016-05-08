@@ -18,21 +18,118 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Vilken del av bussen är det fel på?"
-        android:id="@+id/textView"
+        android:id="@+id/heading"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold" />
 
         <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/doorbus"
-            android:onClick="onClickDoorButton"  />
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/doorButton"
+            android:background="@drawable/door"
+            android:onClick="onClickDoorButton"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/heading"
+            android:layout_alignLeft="@+id/heading"
+            android:layout_alignStart="@+id/heading" />
 
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/climateButton"
+            android:background="@drawable/temp"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_alignTop="@+id/doorButton"
+            android:layout_alignRight="@+id/heading"
+            android:layout_alignEnd="@+id/heading"
+            android:enabled="false" />
 
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/driverButton"
+            android:background="@drawable/driver"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_marginTop="35dp"
+            android:enabled="false"
+            android:layout_below="@+id/door"
+            android:layout_alignLeft="@+id/doorButton"
+            android:layout_alignStart="@+id/doorButton" />
+
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/technicalButton"
+            android:background="@drawable/technical"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_alignTop="@+id/driverButton"
+            android:layout_alignLeft="@+id/climateButton"
+            android:layout_alignStart="@+id/climateButton"
+            android:enabled="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dörrar"
+            android:id="@+id/door"
+            android:layout_below="@+id/doorButton"
+            android:layout_alignLeft="@+id/doorButton"
+            android:layout_alignStart="@+id/doorButton"
+            android:layout_alignRight="@+id/driverButton"
+            android:layout_alignEnd="@+id/driverButton"
+            android:textAlignment="center"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Klimat"
+            android:id="@+id/climate"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_alignRight="@+id/climateButton"
+            android:layout_alignEnd="@+id/climateButton"
+            android:layout_alignTop="@+id/door"
+            android:layout_alignBottom="@+id/door"
+            android:layout_alignLeft="@+id/climateButton"
+            android:layout_alignStart="@+id/climateButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Förarplats"
+            android:id="@+id/driver"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_below="@+id/driverButton"
+            android:layout_alignLeft="@+id/door"
+            android:layout_alignStart="@+id/door"
+            android:layout_alignRight="@+id/driverButton"
+            android:layout_alignEnd="@+id/driverButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Teknisk utrustning"
+            android:id="@+id/techincal"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_below="@+id/technicalButton"
+            android:layout_alignLeft="@+id/technicalButton"
+            android:layout_alignStart="@+id/technicalButton"
+            android:layout_alignBottom="@+id/driver"
+            android:layout_alignRight="@+id/technicalButton"
+            android:layout_alignEnd="@+id/technicalButton" />
 
 
     </RelativeLayout>
