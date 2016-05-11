@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App 0.0</string>
+    <string name="app_name">But Answers Do</string>
     <string name="title_activity_second_door_page">SecondDoorPage</string>
     <string-array name="busIDs">
         <item>Buss 1</item>

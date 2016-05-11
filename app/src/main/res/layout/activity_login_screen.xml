@@ -25,7 +25,15 @@
         android:layout_height="wrap_content"
         android:text="Okej"
         android:id="@+id/button"
+        android:onClick="reportError"
         android:layout_below="@+id/spin"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:onClick="reportError"/>
+        android:background="@drawable/logo4"
+        android:layout_above="@+id/textView6" />
 </RelativeLayout>
