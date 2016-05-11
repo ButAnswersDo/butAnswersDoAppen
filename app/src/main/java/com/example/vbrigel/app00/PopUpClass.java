@@ -30,8 +30,12 @@ public class PopUpClass extends Activity {
         getWindow().setLayout(width, height);
         TextView report1 = (TextView) findViewById(R.id.errorLogg1);
         TextView report2 =(TextView) findViewById(R.id.errorLogg2);
+        if(HelperClass.getErrorCategory() == "Annat fel")
+            report1.setText("Felorsak: "+HelperClass.getErrorCategory());
+        else
         report1.setText("Felorsak: "+HelperClass.getErrorCategory()+HelperClass.getErrorSubCategory());
-        report2.setText("Komentar: "+HelperClass.getMessage());
+
+        report2.setText("Kommentar: "+HelperClass.getMessage());
 
         Firebase.setAndroidContext(this);
         myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");

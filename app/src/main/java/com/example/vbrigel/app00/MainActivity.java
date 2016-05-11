@@ -23,4 +23,14 @@ public class MainActivity extends Activity {
         Intent backPage = new Intent (this, LoginScreen.class);
         startActivity(backPage);
     }
+    public void onClickOtherButton(View view) {
+        HelperClass.setErrorCategory("Annat fel");
+        Intent nextOtherPage = new Intent (this, OtherSendPage.class);
+        startActivity(nextOtherPage);
+    }
+    public void onClickChargeButton(View view) {
+        HelperClass.setErrorCategory("Laddningsfel");
+        Intent nextChargePage = new Intent (this, ChargeError.class);
+        startActivity(nextChargePage);
+    }
 }

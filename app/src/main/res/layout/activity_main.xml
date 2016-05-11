@@ -140,13 +140,14 @@
             android:id="@+id/otherButton"
             android:background="@drawable/other"
             android:layout_below="@+id/techincal"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignStart="@+id/techincal"
+            android:onClick="onClickOtherButton"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Övrigt"
+            android:text="Annat fel"
             android:id="@+id/otherText"
             android:textAlignment="center"
             android:textSize="17dp"
@@ -156,6 +157,31 @@
             android:layout_alignRight="@+id/otherButton"
             android:layout_alignEnd="@+id/otherButton" />
 
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:enabled="false"
+            android:id="@+id/electricityButton"
+            android:background="@drawable/electricity"
+            android:layout_below="@+id/driver"
+            android:layout_alignStart="@+id/driver"
+            android:onClick="onClickChargeButton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Laddningsfel"
+            android:id="@+id/elecText"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_below="@+id/electricityButton"
+            android:layout_alignLeft="@+id/electricityButton"
+            android:layout_alignStart="@+id/electricityButton"
+            android:layout_alignRight="@+id/electricityButton"
+            android:layout_alignEnd="@+id/electricityButton" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
