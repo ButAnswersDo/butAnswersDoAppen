@@ -136,6 +136,7 @@
             android:layout_alignRight="@+id/technicalButton"
             android:layout_alignEnd="@+id/technicalButton" />
 
+<<<<<<< Updated upstream
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
@@ -161,6 +162,13 @@
             android:layout_alignStart="@+id/otherButton"
             android:layout_alignRight="@+id/otherButton"
             android:layout_alignEnd="@+id/otherButton" />
+=======
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+    </RelativeLayout>
+>>>>>>> Stashed changes
 
         <ImageButton
             android:layout_width="120dp"

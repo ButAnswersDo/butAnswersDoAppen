@@ -17,12 +17,21 @@
         <activity android:name=".LoginScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< Updated upstream
         <activity android:name=".MainActivity"></activity>
+=======
+<<<<<<< Updated upstream
+        <activity android:name=".MainActivity"
+                    ></activity>
+>>>>>>> Stashed changes
         <activity android:name=".DoorError"></activity>
+=======
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".DoorSendPage1$DoorError"></activity>
+>>>>>>> Stashed changes
         <activity android:name=".DoorSendPage1"></activity>
         <activity android:name=".PopUpClass"></activity>
         <activity android:name=".OtherSendPage"></activity>

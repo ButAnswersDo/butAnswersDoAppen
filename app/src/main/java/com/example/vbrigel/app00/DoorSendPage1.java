@@ -64,4 +64,5 @@ public class DoorSendPage1 extends AppCompatActivity{
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);
     }
+    
 }
