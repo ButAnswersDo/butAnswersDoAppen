@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Spinner;
 
 
-
 public class LoginScreen extends AppCompatActivity {
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

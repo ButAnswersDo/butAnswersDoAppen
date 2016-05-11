@@ -30,7 +30,17 @@ public class MainActivity extends Activity {
     }
     public void onClickChargeButton(View view) {
         HelperClass.setErrorCategory("Laddningsfel");
-        Intent nextChargePage = new Intent (this, ChargeError.class);
+        Intent nextChargePage = new Intent(this, ChargeError.class);
         startActivity(nextChargePage);
+    }
+    public void onClickClimateButton(View view) {
+        HelperClass.setErrorCategory("Klimat");
+        Intent nextClimatePage = new Intent (this, ClimateError.class);
+        startActivity(nextClimatePage);
+    }
+    public void onClickDriverSeatButton(View view) {
+        HelperClass.setErrorCategory("Förarsätet");
+        Intent nextDriverSeatPage = new Intent (this, DriverSeatError.class);
+        startActivity(nextDriverSeatPage);
     }
 }

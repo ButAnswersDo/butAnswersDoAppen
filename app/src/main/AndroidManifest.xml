@@ -28,6 +28,13 @@
         <activity android:name=".OtherSendPage"></activity>
         <activity android:name=".ChargeError"></activity>
         <activity android:name=".ChargeSendPage"></activity>
+        <activity android:name=".ClimateError" />
+        <activity android:name=".ClimateSendPage1" />
+        <activity android:name=".DriverSeatError" />
+        <activity android:name=".DriverSeatSendPage1" />
+        <activity android:name=".DriverSeatSendPage2" />
+        <activity android:name=".DriverSeatSendPage3" />
+
     </application>
 
 </manifest>
