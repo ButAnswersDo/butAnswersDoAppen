@@ -20,7 +20,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
     android {
         packagingOptions {
@@ -29,7 +28,7 @@ android {
             exclude 'META-INF/NOTICE'
         }
     }
-
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -37,10 +36,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
     compile 'com.firebase:firebase-client-android:2.5.2+'
-<<<<<<< Updated upstream
 
 
 }
-=======
-}
->>>>>>> Stashed changes

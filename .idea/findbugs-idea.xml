@@ -26,10 +26,6 @@
         <entry key="property.minPriorityToReport" value="Medium" />
         <entry key="property.runAnalysisInBackground" value="false" />
         <entry key="property.showHiddenDetectors" value="false" />
-<<<<<<< Updated upstream
-=======
-        <entry key="property.toolWindowScrollToSource" value="false" />
->>>>>>> Stashed changes
         <entry key="property.toolWindowToFront" value="true" />
       </map>
     </option>
