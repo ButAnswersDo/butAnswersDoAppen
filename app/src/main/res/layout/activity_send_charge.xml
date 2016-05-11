@@ -82,7 +82,7 @@
             android:text="Skicka hjälp direkt!"
             android:id="@+id/button2"
             android:layout_column="1"
-            android:onClick="helpNow"
+            android:onClick="helpNowCharging"
             android:layout_gravity="top" />
 
         <Button
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:text="INGEN FARA PÅ TAKET!"
             android:id="@+id/button3"
-            android:onClick="helpLater"
+            android:onClick="helpLaterCharging"
             android:layout_column="2"
             android:layout_gravity="top" />
     </LinearLayout>

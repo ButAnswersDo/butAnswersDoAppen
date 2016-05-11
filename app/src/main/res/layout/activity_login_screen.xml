@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Okej"
         android:id="@+id/button"
-        android:onClick="reportError"
+        android:onClick="selectBuss"
         android:layout_below="@+id/spin"
         android:layout_centerHorizontal="true" />
 

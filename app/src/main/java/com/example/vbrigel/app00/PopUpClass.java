@@ -37,19 +37,19 @@ public class PopUpClass extends Activity {
         report1.setText("Felorsak: "+HelperClass.getErrorCategory()+HelperClass.getErrorSubCategory());
 
         report2.setText("Kommentar: "+HelperClass.getMessage());
-
         Firebase.setAndroidContext(this);
         myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");
     }
     public void sendReport(View view) {
         Toast.makeText(getApplicationContext(), "Din felrapport har skickats!", Toast.LENGTH_LONG).show();
         myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getOutput());
-        Intent backToFirst = new Intent (this, MainActivity.class);
-        startActivity(backToFirst);
+        Intent backToDefaultPage = new Intent (this, DefaultPage.class);
+        startActivity(backToDefaultPage);
     }
 
     public void cancelReport(View view){
-        Intent backToFirst =new Intent(this,MainActivity.class);
+        Toast.makeText(getApplicationContext(), "Ej skickat!", Toast.LENGTH_LONG).show();
+        Intent backToFirst =new Intent(this,DefaultPage.class);
         startActivity(backToFirst);
     }
 

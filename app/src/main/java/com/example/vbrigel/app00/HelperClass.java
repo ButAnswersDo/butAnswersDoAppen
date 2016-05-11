@@ -1,75 +1,120 @@
 package com.example.vbrigel.app00;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * The purpose with this class is to spread the information between the classes and offer the functionalty to all classes.
+ * @author  butAnswersDo
+ * @since   2016-05-11
+ */
+
 public class HelperClass {
-    private static String bus;
-    private static String error;
-    private static String subError;
+    private static String busName;
+    private static String errorCategory;
+    private static String errorSubCategory;
     private static String message;
     private static String criticality;
 
-    //Set the busName
-    public static void setBusName(String busName){
-        bus = busName;
+    /**
+     * This method sets the busname.
+     * @param newBusName This variabel takes in the busname
+     */
+    public static void setBusName(String newBusName){
+        busName = newBusName;
     }
-    //Set the error category
-    public static void setErrorCategory (String errorCategory){
-        error=errorCategory;
+
+    /**
+     * This method sets the error category.
+     * @param newErrorCategory
+     */
+    public static void setErrorCategory (String newErrorCategory){
+        errorCategory=newErrorCategory;
     }
-    //Set the error sub category
-    public static void setErrorSubCategory (String errorSubCategory){
-        subError="_"+errorSubCategory;
+
+    /**
+     * This method sets the sub category of the error.
+     * @param newErrorSubCategory
+     */
+    public static void setErrorSubCategory (String newErrorSubCategory){
+        errorSubCategory=newErrorSubCategory;
     }
-    //Set the message
+
+    /**
+     * This method sets the message from the bus drivers choices.
+     * @param errorMessage
+     */
     public static void setMessage(String errorMessage){
         message=errorMessage;
     }
-    //Set the criticality for the error report
+    /**
+     * This method sets the cricticality.
+     * @param critical
+     */
     public static void setCriticality(String critical){
         criticality=critical;
     }
 
-
-    //Get the name/id of the bus
+    /**
+     * This method get and returns the name/ID of the bus.
+     * @return Returns the name/ID of the bus as a string.
+     */
     public static String getBusName(){
-        return bus;
+        return busName;
     }
-    //Get the error category
+
+    /**
+     * This method get and return the error category.
+     * @return Returns the error category as a string.
+     */
     public static String getErrorCategory(){
-        return error;
+        return errorCategory;
     }
-    //Get the erro sub category
+
+    /**
+     * This method get and return the error sub category.
+     * @return Returns the error sub category.
+     */
     public static String getErrorSubCategory(){
-        return subError;
+        return errorSubCategory;
     }
-    //Get the message
-    public static String getMessage(){
+
+    /**
+     * This methodget and  return the current message.
+     * @return Returns a string with information.
+     */    public static String getMessage(){
         return message;
     }
-    //Get the criticality
+
+    /**
+     * This method get and return the criticality.
+     * @return Returns the error sub category.
+     */
     public static String getCriticality(){
         return criticality;
     }
 
-    //Get the current time stamp from the android device
-    public static String getCurrentTimeStamp(){
-        try {
 
+    /**
+     * This method gets the current time stamp from the android device.
+     * @return Returns a string with the time and date or null when the date is now a valid date.
+     */
+    public static String getCurrentTimeStamp() {
+        try {
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String currentTimeStamp = dateFormat.format(new Date()); // Find todays date
-
             return currentTimeStamp;
-        } catch (Exception e) {
+        }
+        catch(Exception e){
             e.printStackTrace();
-
             return null;
         }
     }
 
-    //Get the error report tree combined with the time stamp
+    /**
+     * This method gets the error report tree and combines it with the time stamp.
+     * @return Returns a string with all the information regarding errors and timestamp.
+     */
     public static String getOutput() {
-        return getCurrentTimeStamp()+"   "+error+subError+","+criticality+","+message;
+        return getCurrentTimeStamp()+", "+errorCategory+", "+errorSubCategory+", "+criticality+", "+message;
     }
 }

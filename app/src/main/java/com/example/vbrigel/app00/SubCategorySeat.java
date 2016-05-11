@@ -1,11 +1,15 @@
 package com.example.vbrigel.app00;
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class DriverSeatError extends AppCompatActivity {
+/**
+ * This page contains all the sub categorys under the chosen category from the DefaultPage.
+ * @author  butAnswersDo
+ * @since   2016-05-11
+ */
+public class SubCategorySeat extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,18 +32,21 @@ public class DriverSeatError extends AppCompatActivity {
     }
 
     private void send1(){
-        Intent nextDriverSeatError = new Intent(this, DriverSeatSendPage1.class);
+        Intent nextDriverSeatError = new Intent(this, SendSeatErrorChair.class);
         startActivity(nextDriverSeatError);
+        onStop();
     }
 
     private void send2(){
-        Intent nextDriverSeatError = new Intent(this, DriverSeatSendPage2.class);
+        Intent nextDriverSeatError = new Intent(this, SendSeatErrorInstrumentBoard.class);
         startActivity(nextDriverSeatError);
+        onStop();
     }
 
     private void send3(){
-        Intent nextDriverSeatError = new Intent(this, DriverSeatSendPage3.class);
+        Intent nextDriverSeatError = new Intent(this, SendSeatErrorOther.class);
         startActivity(nextDriverSeatError);
+        onStop();
     }
 
 }

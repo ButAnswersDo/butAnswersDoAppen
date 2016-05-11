@@ -2,8 +2,12 @@
     <string name="app_name">But Answers Do</string>
     <string name="title_activity_second_door_page">SecondDoorPage</string>
     <string-array name="busIDs">
-        <item>Buss 1</item>
-        <item>Buss 2</item>
-        <item>Buss 3</item>
+        <item>EOG 604</item>
+        <item>EOG 606</item>
+        <item>EOG 616</item>
+        <item>EOG 622</item>
+        <item>EOG 627</item>
+        <item>EOG 631</item>
+        <item>EOG 634</item>
     </string-array>
 </resources>

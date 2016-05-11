@@ -1,11 +1,15 @@
 package com.example.vbrigel.app00;
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ClimateError extends AppCompatActivity {
+/**
+ * This page contains all the sub categorys under the chosen category from the DefaultPage.
+ * @author  butAnswersDo
+ * @since   2016-05-11
+ */
+public class SubCategoryClimate extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +27,8 @@ public class ClimateError extends AppCompatActivity {
     }
 
     private void send(){
-        Intent nextClimateError = new Intent(this, ClimateSendPage1.class);
+        Intent nextClimateError = new Intent(this, SendClimateError.class);
         startActivity(nextClimateError);
+        onStop();
     }
 }

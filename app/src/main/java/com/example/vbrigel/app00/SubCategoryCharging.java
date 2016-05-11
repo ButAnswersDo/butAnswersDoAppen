@@ -1,12 +1,15 @@
 package com.example.vbrigel.app00;
-
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ChargeError extends Activity {
+/**
+ * This page contains all the sub categorys under the chosen category from the DefaultPage.
+ * @author  butAnswersDo
+ * @since   2016-05-11
+ */
+public class SubCategoryCharging extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +27,8 @@ public class ChargeError extends Activity {
     }
 
     private void send(){
-        Intent nextChargeError = new Intent(this, ChargeSendPage.class);
+        Intent nextChargeError = new Intent(this, SendChargingError.class);
         startActivity(nextChargeError);
+        onStop();
     }
 }
