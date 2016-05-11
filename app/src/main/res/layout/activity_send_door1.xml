@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vilket stämmer bäst överens med ditt fel?"
+        android:id="@+id/textView7"
+        android:layout_column="1" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dörren gnisslar"
+        android:id="@+id/checkBox3"
+        android:checked="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentLeft="true"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:onClick="onClickCheckBox1"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dörren kan inte stängas"
+        android:id="@+id/checkBox2"
+        android:checked="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:onClick="onClickCheckBox2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dörren kan inte öppnas"
+        android:id="@+id/checkBox"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignParentLeft="true"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="onClickCheckBox3"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Övrig kommentar"
+        android:id="@+id/textView8"
+        android:layout_column="1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_column="1"
+        android:layout_row="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_row="2"
+        android:layout_column="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skicka hjälp direkt!"
+            android:id="@+id/button2"
+            android:layout_column="1"
+            android:onClick="helpNow"
+            android:layout_gravity="top" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGEN FARA PÅ TAKET!"
+            android:id="@+id/button3"
+            android:onClick="helpLater"
+            android:layout_column="2"
+            android:layout_gravity="top" />
+    </LinearLayout>
+
+</TableLayout>
