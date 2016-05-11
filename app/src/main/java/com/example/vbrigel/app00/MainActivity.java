@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 
     public void onClickDoorButton(View view) {
         HelperClass.setErrorCategory("Dörrar");
-        Intent nextDoorPage = new Intent (this, DoorSendPage1.DoorError.class);
+        Intent nextDoorPage = new Intent (this, DoorError.class);
         startActivity(nextDoorPage);
     }
 
