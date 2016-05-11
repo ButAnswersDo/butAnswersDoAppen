@@ -19,10 +19,7 @@ public class LoginScreen extends AppCompatActivity {
         startActivity(nextDoorPage);
         final Spinner spinnerbus = (Spinner) findViewById(R.id.spin);
         String busName = spinnerbus.getSelectedItem().toString();
-        //HelperClass help = new HelperClass();
         HelperClass.setBusName(busName);
-        //Toast.makeText(getApplicationContext(), busName, Toast.LENGTH_LONG).show();
-
     }
 
 }

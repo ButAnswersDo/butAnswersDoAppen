@@ -1,17 +1,13 @@
 package com.example.vbrigel.app00;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.firebase.client.Firebase;
-
-public class DoorSendPage1 extends Activity {
-    private Firebase myFirebaseRef;
+public class DoorSendPage1 extends AppCompatActivity{
     private Boolean checked1 = false;
     private Boolean checked2 = false;
     private Boolean checked3 = false;
@@ -22,8 +18,6 @@ public class DoorSendPage1 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_door1);
-        Firebase.setAndroidContext(this);
-        myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");
     }
 
     public void onClickCheckBox1(View view) {
@@ -48,12 +42,11 @@ public class DoorSendPage1 extends Activity {
                 message = message + "Dörren kan inte stängas, ";
             if (checked3)
                 message = message + "Dörren kan inte öppnas, ";
-        Toast.makeText(getApplicationContext(), "Bekräftat: Vi skickar hjälp direkt!", Toast.LENGTH_LONG).show();
-        myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getMessage() +" Skicka hjälp direkt. Anledning: " + message + commentText);
-        message = "";
-
-        Intent backToFirst = new Intent (this, MainActivity.class);
-        startActivity(backToFirst);
+        HelperClass.setMessage(message+commentText);
+        HelperClass.setCriticality("Fixa snarast");
+        message="";
+        Intent popup = new Intent(this, PopUpClass.class);
+        startActivity(popup);
     }
 
     public void helpLater(View view) {
@@ -65,11 +58,10 @@ public class DoorSendPage1 extends Activity {
             message = message + "Dörren kan inte stängas, ";
         if (checked3)
             message = message + "Dörren kan inte öppnas, ";
-        Toast.makeText(getApplicationContext(), "Bekräftat: Tack för informationen!", Toast.LENGTH_LONG).show();
-        myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getMessage()+" Åtgärda dessa fel senare: " + message + commentText2);
-        message = "";
-
-        Intent backToFirst = new Intent (this, MainActivity.class);
-        startActivity(backToFirst);
+        HelperClass.setMessage(message+commentText2);
+        HelperClass.setCriticality("Fixa det senare");
+        message="";
+        Intent popup = new Intent(this, PopUpClass.class);
+        startActivity(popup);
     }
 }

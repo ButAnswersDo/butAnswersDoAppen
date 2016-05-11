@@ -11,16 +11,16 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
+
     public void onClickDoorButton(View view) {
         HelperClass.setErrorCategory("Dörrar");
         Intent nextDoorPage = new Intent (this, DoorError.class);
         startActivity(nextDoorPage);
     }
+
     public void onClickBackButton(View view) {
         Intent backPage = new Intent (this, LoginScreen.class);
         startActivity(backPage);
     }
-    
 }

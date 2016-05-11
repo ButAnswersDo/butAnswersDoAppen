@@ -25,6 +25,7 @@
                     ></activity>
         <activity android:name=".DoorError"></activity>
         <activity android:name=".DoorSendPage1"></activity>
+        <activity android:name=".PopUpClass"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,8 @@ public class HelperClass {
     private static String bus;
     private static String error;
     private static String subError;
+    private static String message;
+    private static String criticality;
 
     //Set the busName
     public static void setBusName(String busName){
@@ -18,21 +20,37 @@ public class HelperClass {
     }
     //Set the error sub category
     public static void setErrorSubCategory (String errorSubCategory){
-        subError=errorSubCategory;
+        subError="_"+errorSubCategory;
+    }
+    //Set the message
+    public static void setMessage(String errorMessage){
+        message=errorMessage;
+    }
+    //Set the criticality for the error report
+    public static void setCriticality(String critical){
+        criticality=critical;
     }
 
 
-    //get the name/id of the bus
+    //Get the name/id of the bus
     public static String getBusName(){
         return bus;
     }
-    //get the error category
+    //Get the error category
     public static String getErrorCategory(){
         return error;
     }
-    //get the erro sub category
+    //Get the erro sub category
     public static String getErrorSubCategory(){
         return subError;
+    }
+    //Get the message
+    public static String getMessage(){
+        return message;
+    }
+    //Get the criticality
+    public static String getCriticality(){
+        return criticality;
     }
 
     //Get the current time stamp from the android device
@@ -51,7 +69,7 @@ public class HelperClass {
     }
 
     //Get the error report tree combined with the time stamp
-    public static String getMessage() {
-        return getCurrentTimeStamp()+"   "+error+"_"+subError;
+    public static String getOutput() {
+        return getCurrentTimeStamp()+"   "+error+subError+","+criticality+","+message;
     }
 }
