@@ -26,6 +26,12 @@
         <activity android:name=".DoorError"></activity>
         <activity android:name=".DoorSendPage1"></activity>
         <activity android:name=".PopUpClass"></activity>
+        <activity android:name=".ClimateError" />
+        <activity android:name=".ClimateSendPage1" />
+        <activity android:name=".DriverSeatError" />
+        <activity android:name=".DriverSeatSendPage1" />
+        <activity android:name=".DriverSeatSendPage2" />
+        <activity android:name=".DriverSeatSendPage3" />
     </application>
 
 </manifest>

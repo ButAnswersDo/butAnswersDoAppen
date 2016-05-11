@@ -49,7 +49,10 @@
             android:adjustViewBounds="false"
             android:enabled="false"
             android:layout_above="@+id/climate"
-            android:layout_alignEnd="@+id/heading" />
+            android:layout_alignEnd="@+id/heading"
+            android:layout_alignTop="@+id/doorButton"
+            android:layout_alignRight="@+id/heading"
+            android:onClick="onClickClimateButton" />
 
         <ImageButton
             android:layout_width="120dp"
@@ -60,7 +63,9 @@
             android:adjustViewBounds="false"
             android:enabled="false"
             android:layout_below="@+id/door"
-            android:layout_alignStart="@+id/doorButton" />
+            android:layout_alignStart="@+id/doorButton"
+            android:layout_alignLeft="@+id/doorButton"
+            android:onClick="onClickDriverSeatButton" />
 
         <ImageButton
             android:layout_width="120dp"

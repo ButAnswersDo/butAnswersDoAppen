@@ -23,4 +23,16 @@ public class MainActivity extends Activity {
         Intent backPage = new Intent (this, LoginScreen.class);
         startActivity(backPage);
     }
+
+    public void onClickClimateButton(View view) {
+        HelperClass.setErrorCategory("Klimat");
+        Intent nextClimatePage = new Intent (this, ClimateError.class);
+        startActivity(nextClimatePage);
+    }
+
+    public void onClickDriverSeatButton(View view) {
+        HelperClass.setErrorCategory("Förarsätet");
+        Intent nextDriverSeatPage = new Intent (this, DriverSeatError.class);
+        startActivity(nextDriverSeatPage);
+    }
 }
