@@ -12,11 +12,12 @@ import com.firebase.client.Firebase;
 
 
 /**
- * Created by Olof on 11/05/16.
+ * @author  butAnswersDo
+ * @since   2016-05-11
  */
 public class PopUpClass extends Activity {
-
     private Firebase myFirebaseRef;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,15 +32,16 @@ public class PopUpClass extends Activity {
         getWindow().setLayout(width, height);
         TextView report1 = (TextView) findViewById(R.id.errorLogg1);
         TextView report2 =(TextView) findViewById(R.id.errorLogg2);
-        if(HelperClass.getErrorCategory() == "Annat fel")
+        if(HelperClass.getErrorCategory().equals("Annat fel"))
             report1.setText("Felorsak: "+HelperClass.getErrorCategory());
         else
-        report1.setText("Felorsak: "+HelperClass.getErrorCategory()+HelperClass.getErrorSubCategory());
+            report1.setText("Felorsak: "+HelperClass.getErrorCategory()+HelperClass.getErrorSubCategory());
 
         report2.setText("Kommentar: "+HelperClass.getMessage());
         Firebase.setAndroidContext(this);
         myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");
     }
+
     public void sendReport(View view) {
         Toast.makeText(getApplicationContext(), "Din felrapport har skickats!", Toast.LENGTH_LONG).show();
         myFirebaseRef.child(HelperClass.getBusName()).push().setValue(HelperClass.getOutput());
@@ -52,6 +54,4 @@ public class PopUpClass extends Activity {
         Intent backToFirst =new Intent(this,DefaultPage.class);
         startActivity(backToFirst);
     }
-
-
 }
