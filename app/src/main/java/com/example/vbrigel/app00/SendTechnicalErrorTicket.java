@@ -11,6 +11,7 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
 
     private Boolean checked1 = false;
     private Boolean checked2 = false;
+    private Boolean checked3 = false;
     String message = "";
 
     /**
@@ -40,7 +41,14 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
     public void onClickCheckBox2(View view) {
         if(view instanceof CheckBox) {
             CheckBox box2 = (CheckBox) view;
-            checked1 = box2.isChecked();
+            checked2 = box2.isChecked();
+        }
+    }
+
+    public void onClickCheckBox3(View view) {
+        if(view instanceof CheckBox) {
+            CheckBox box3 = (CheckBox) view;
+            checked3 = box3.isChecked();
         }
     }
 
@@ -55,6 +63,8 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
         if (checked1)
             message = message + "Kortläsare fram ur funktion, ";
         if (checked2)
+            message = message + "Kortläsare mitten ur funktion, ";
+        if (checked3)
             message = message + "Kortläsare bak ur funktion, ";
         HelperClass.setMessage(message+commentText);
         HelperClass.setCriticality("Fixa snarast");
@@ -74,6 +84,8 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
         if (checked1)
             message = message + "Kortläsare fram ur funktion, ";
         if (checked2)
+            message = message + "Kortläsare mitten ur funktion, ";
+        if (checked3)
             message = message + "Kortläsare bak ur funktion, ";
         HelperClass.setMessage(message+commentText2);
         HelperClass.setCriticality("Fixa senare");

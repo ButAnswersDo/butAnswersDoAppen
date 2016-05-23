@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
@@ -77,16 +77,17 @@
             android:text="Skicka hjälp direkt!"
             android:id="@+id/button2"
             android:layout_column="1"
-            android:onClick="helpNowDriverSeat1"
-            android:layout_gravity="top" />
+            android:layout_gravity="top"
+            android:onClick="helpNowTechnical1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="INGEN FARA PÅ TAKET!"
             android:id="@+id/button3"
-            android:onClick="helpLaterDriverSeat1"
+            android:onClick="helpLaterTechnical1"
             android:layout_column="2"
             android:layout_gravity="top" />
     </LinearLayout>
-</RelativeLayout>
+
+</TableLayout>

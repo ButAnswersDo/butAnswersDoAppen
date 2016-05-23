@@ -13,24 +13,24 @@ public class SubCategoryTechnical extends Activity {
         setContentView(R.layout.activity_technical_error);
     }
 
-    public void seatClicked(View view){
+    public void displayClicked(View view){
         HelperClass.setErrorSubCategory("Display.");
         send1();
     }
-    public void instrumentClicked(View view){
+    public void ticketClicked(View view){
         HelperClass.setErrorSubCategory("Biljettautomat.");
         send2();
     }
 
     private void send1(){
-        Intent nextDriverSeatError = new Intent(this, SendSeatErrorChair.class);
-        startActivity(nextDriverSeatError);
+        Intent nextTechnicalError = new Intent(this, SendTechnicalErrorDisplay.class);
+        startActivity(nextTechnicalError);
         onStop();
     }
 
     private void send2(){
-        Intent nextDriverSeatError = new Intent(this, SendSeatErrorInstrumentBoard.class);
-        startActivity(nextDriverSeatError);
+        Intent nextTechnicalError = new Intent(this, SendTechnicalErrorTicket.class);
+        startActivity(nextTechnicalError);
         onStop();
     }
 

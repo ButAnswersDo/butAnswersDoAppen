@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Varnar för lågt lufttryck"
-        android:id="@+id/checkBox3"
+        android:id="@+id/checkBox1"
         android:checked="false"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox2"

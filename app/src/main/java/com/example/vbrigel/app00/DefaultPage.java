@@ -66,7 +66,7 @@ public class DefaultPage extends AppCompatActivity {
 
     public void onClickTechnicalButton(View view) {
         HelperClass.setErrorCategory("Tekniskt fel");
-        Intent nextTechnicalPage = new Intent (this, SubCategorySeat.class);
+        Intent nextTechnicalPage = new Intent (this, SubCategoryTechnical.class);
         startActivity(nextTechnicalPage);
         onStop();
     }

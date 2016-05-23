@@ -36,7 +36,7 @@
                 android:layout_width="186dp"
                 android:layout_height="wrap_content"
                 android:text="Display och högtalare"
-                android:onClick="frontDoorClicked"
+                android:onClick="displayClicked"
                 android:id="@+id/frontButton"
                 android:layout_gravity="center_horizontal" />
 
@@ -44,7 +44,7 @@
                 android:layout_width="185dp"
                 android:layout_height="wrap_content"
                 android:text="Biljettautomat"
-                android:onClick="centreDoorClicked"
+                android:onClick="ticketClicked"
                 android:id="@+id/midleButton"
                 android:layout_gravity="center_horizontal" />
 
