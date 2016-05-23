@@ -40,7 +40,7 @@ public class SendDoorError extends AppCompatActivity{
     }
 
     /**
-     * This following three methods checkss if the checkbox #X has been pressed, also known as checked.
+     * The following three methods checks if the checkbox #X has been pressed, also known as checked.
      * @param view Takes in a view(checkbox) generated from the activity_send_door1.xml.
      */
     public void onClickCheckBox1(View view) {

@@ -63,4 +63,11 @@ public class DefaultPage extends AppCompatActivity {
         startActivity(nextDriverSeatPage);
         onStop();
     }
+
+    public void onClickTechnicalButton(View view) {
+        HelperClass.setErrorCategory("Tekniskt fel");
+        Intent nextTechnicalPage = new Intent (this, SubCategorySeat.class);
+        startActivity(nextTechnicalPage);
+        onStop();
+    }
 }

@@ -16,11 +16,18 @@ import android.widget.EditText;
  * @author  butAnswersDo
  * @since   2016-05-11
  */
+
 public class SendChargingError extends Activity {
     private Boolean checked1 = false;
     private Boolean checked2 = false;
     private Boolean checked3 = false;
     String message = "";
+
+    /**
+     *  Called when the activity is first created and will do all setup of "global" state in onCreate().
+     *  This method also creates a reference to the database service.
+     * @param savedInstanceState This is the first parameter to onCreate method.
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +35,8 @@ public class SendChargingError extends Activity {
         setContentView(R.layout.activity_send_charge);
     }
     /**
-     * This following three methods checkss if the checkbox #X has been pressed, also known as checked.
-     * @param view Takes in a view(checkbox) generated from the activity_send_door1.xml.
+     * This following three methods checks if the checkbox #X has been pressed, also known as checked.
+     * @param view Takes in a view(checkbox) generated from the activity_send_charge.xml.
      */
     public void onClickCharge1(View view) {
         if(view instanceof CheckBox) {
@@ -37,6 +44,7 @@ public class SendChargingError extends Activity {
             checked1 = box1.isChecked();
         }
     }
+
     public void onClickCharge2(View view) {
         if(view instanceof CheckBox) {
             CheckBox box2 = (CheckBox) view;
@@ -49,6 +57,11 @@ public class SendChargingError extends Activity {
             checked3 = box3.isChecked();
         }
     }
+
+    /**
+     * This method is created for the button "HelpNow" and renders a message to be sent to the database. It also displays a message that the error will be handled immediately.
+     * @param view Takes in a view(button) generated from the activity_send_charge.xml.
+     */
 
     public void helpNowCharging(View view) {
         final EditText myInput1 = (EditText)findViewById(R.id.editTextCharge);
@@ -64,6 +77,11 @@ public class SendChargingError extends Activity {
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);
     }
+
+    /**
+     * This method is created for the button "HelpLater" and renders a message to be sent to the database.
+     * @param view Takes in a view(button) generated from the activity_send_charge1.xml.
+     */
 
     public void helpLaterCharging(View view) {
         final EditText myInput2 = (EditText)findViewById(R.id.editTextCharge);

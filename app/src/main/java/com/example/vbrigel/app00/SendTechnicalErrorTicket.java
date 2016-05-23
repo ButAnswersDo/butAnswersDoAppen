@@ -1,4 +1,5 @@
 package com.example.vbrigel.app00;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,17 +7,8 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-/**
- * This page is the last page before returning sending the bus driver back to the DefaultPage.
- * This class lets the bus drives add more details to the error both by pressing on checkboxes filled with standardized quotes
- * and by filling in some extra information in a separate text field if needed.
- * Before sending the message a confirmation window will pop up.
- * The bus driver also chooses if the error need to be handled right now or not,
- * giving us two methods with same functionality linked to the buttons in the XML file.
- * @author  butAnswersDo
- * @since   2016-05-11
- */
-public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
+public class SendTechnicalErrorTicket extends AppCompatActivity {
+
     private Boolean checked1 = false;
     private Boolean checked2 = false;
     String message = "";
@@ -30,13 +22,14 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_driver_seat_send_page2);
+        setContentView(R.layout.activity_send_technical_error_ticket);
     }
 
     /**
-     * The following two methods checks if the checkbox #X has been pressed, also known as checked.
-     * @param view Takes in a view(checkbox) generated from the activitey_driver_seat_send_page2.xml.
+     * This following two methods checks if the checkbox #X has been pressed, also known as checked.
+     * @param view Takes in a view(checkbox) generated from the activity_send_door1.xml.
      */
+
     public void onClickCheckBox1(View view) {
         if(view instanceof CheckBox) {
             CheckBox box1 = (CheckBox) view;
@@ -53,17 +46,18 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
 
     /**
      * This method is created for the button "HelpNow" and renders a message to be sent to the database. It also displays a message that the error will be handled immediately.
-     * @param view Takes in a view(button) generated from the activity_driver_seat_send_page2.xml.
+     * @param view Takes in a view(button) generated from the activity_send_technical_error_display.xml.
      */
 
-    public void helpNowDriverSeat2(View view) {
+    public void helpNowTechnical2(View view) {
         final EditText myInput1 = (EditText)findViewById(R.id.editText);
         String commentText = (myInput1.getText().toString());
         if (checked1)
-            message = message + "Varnar för lågt lufttryck, ";
+            message = message + "Kortläsare fram ur funktion, ";
         if (checked2)
-            message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+            message = message + "Kortläsare bak ur funktion, ";
+        HelperClass.setMessage(message+commentText);
+        HelperClass.setCriticality("Fixa snarast");
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -71,18 +65,20 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
 
     /**
      * This method is created for the button "HelpLater" and renders a message to be sent to the database.
-     * @param view Takes in a view(button) generated from the activity_driver_seat_send__page2.xml.
+     * @param view Takes in a view(button) generated from the activity_send_technical_error_ticket.xml.
      */
 
-    public void helpLaterDriverSeat2(View view) {
+    public void helpLaterTechnical2(View view) {
         final EditText myInput2 = (EditText)findViewById(R.id.editText);
         String commentText2 = (myInput2.getText().toString());
         if (checked1)
-            message = message + "Varnar för lågt lufttryck, ";
+            message = message + "Kortläsare fram ur funktion, ";
         if (checked2)
-            message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+            message = message + "Kortläsare bak ur funktion, ";
+        HelperClass.setMessage(message+commentText2);
+        HelperClass.setCriticality("Fixa senare");
         message="";
+
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
     }

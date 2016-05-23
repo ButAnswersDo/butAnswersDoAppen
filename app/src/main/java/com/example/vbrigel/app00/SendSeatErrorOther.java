@@ -22,6 +22,12 @@ public class SendSeatErrorOther extends AppCompatActivity {
     private Boolean checked2 = false;
     String message = "";
 
+    /**
+     *  Called when the activity is first created and will do all setup of "global" state in onCreate().
+     *  This method also creates a reference to the database service.
+     * @param savedInstanceState This is the first parameter to onCreate method.
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +35,10 @@ public class SendSeatErrorOther extends AppCompatActivity {
     }
 
     /**
-     * This following three methods checkss if the checkbox #X has been pressed, also known as checked.
-     * @param view Takes in a view(checkbox) generated from the activity_send_door1.xml.
+     * This following two methods checks if the checkbox #X has been pressed, also known as checked.
+     * @param view Takes in a view(checkbox) generated from the activity_driver_seat_page3.xml.
      */
+
     public void onClickCheckBox1(View view) {
         if(view instanceof CheckBox) {
             CheckBox box1 = (CheckBox) view;
@@ -45,6 +52,11 @@ public class SendSeatErrorOther extends AppCompatActivity {
             checked1 = box2.isChecked();
         }
     }
+
+    /**
+     * This method is created for the button "HelpNow" and renders a message to be sent to the database. It also displays a message that the error will be handled immediately.
+     * @param view Takes in a view(button) generated from the activity_driver_seat_send_page3.xml.
+     */
 
 
     public void helpNowDriverSeat3(View view) {
@@ -60,6 +72,11 @@ public class SendSeatErrorOther extends AppCompatActivity {
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
     }
+
+    /**
+     * This method is created for the button "HelpLater" and renders a message to be sent to the database.
+     * @param view Takes in a view(button) generated from the activity_driver_seat_send__page3.xml.
+     */
 
     public void helpLaterDriverSeat3(View view) {
         final EditText myInput2 = (EditText)findViewById(R.id.editText);
