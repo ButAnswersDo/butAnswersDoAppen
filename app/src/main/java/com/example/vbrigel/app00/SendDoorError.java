@@ -45,7 +45,7 @@ public class SendDoorError extends AppCompatActivity{
     public void onClickCheckBox1(View view) {
         if(view instanceof CheckBox){
             CheckBox box1 = (CheckBox) view;
-            checkBox2 = box1.isChecked();
+            checkBox1 = box1.isChecked();
         }
     }
 
