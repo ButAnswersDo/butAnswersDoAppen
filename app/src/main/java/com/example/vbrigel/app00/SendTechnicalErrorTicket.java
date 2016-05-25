@@ -66,8 +66,7 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
             message = message + "Kortläsare mitten ur funktion, ";
         if (checked3)
             message = message + "Kortläsare bak ur funktion, ";
-        HelperClass.setMessage(message+commentText);
-        HelperClass.setCriticality("Fixa snarast");
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -87,8 +86,7 @@ public class SendTechnicalErrorTicket extends AppCompatActivity {
             message = message + "Kortläsare mitten ur funktion, ";
         if (checked3)
             message = message + "Kortläsare bak ur funktion, ";
-        HelperClass.setMessage(message+commentText2);
-        HelperClass.setCriticality("Fixa senare");
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
         message="";
 
         Intent popup = new Intent (this, PopUpClass.class);

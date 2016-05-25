@@ -40,7 +40,7 @@ public class DefaultPage extends AppCompatActivity {
         onStop();
     }
     public void onClickOtherButton(View view) {
-        HelperClass.setErrorCategory("Annat fel");
+        HelperClass.setErrorCategory("");
         Intent nextOtherPage = new Intent (this, SubCategoryOther.class);
         startActivity(nextOtherPage);
         onStop();

@@ -67,8 +67,7 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
             message = message + "Fel på display invändigt, ";
         if (checked3)
             message = message + "Högtalare ur funktion, ";
-        HelperClass.setMessage(message+commentText);
-        HelperClass.setCriticality("Fixa snarast");
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -88,8 +87,7 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
             message = message + "Fel på display invändigt, ";
         if (checked3)
             message = message + "Högtalare ur funktion, ";
-        HelperClass.setMessage(message+commentText2);
-        HelperClass.setCriticality("Fixa senare");
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
         message="";
 
         Intent popup = new Intent (this, PopUpClass.class);

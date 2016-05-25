@@ -19,15 +19,17 @@ public class SubCategoryOther extends AppCompatActivity{
     }
 
     public void helpNow(View view) {
+        HelperClass.setErrorSubCategory("Annat fel");
         final EditText myInput1 = (EditText)findViewById(R.id.editTextOther);
-        HelperClass.setMessage(myInput1.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
+        HelperClass.setMessage("Åtgärda felet under dagen! " + myInput1.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);
     }
 
     public void helpLater(View view) {
+        HelperClass.setErrorSubCategory("Annat fel");
         final EditText myInput2 = (EditText)findViewById(R.id.editTextOther);
-        HelperClass.setMessage(myInput2.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
+        HelperClass.setMessage("Åtgärda felet ikväll! " + myInput2.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);
     }

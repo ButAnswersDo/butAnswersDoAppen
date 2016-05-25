@@ -27,7 +27,7 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Felkategori --> Förarsäte"
+                android:text="Felkategori --> Förarplats"
                 android:id="@+id/heading"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />

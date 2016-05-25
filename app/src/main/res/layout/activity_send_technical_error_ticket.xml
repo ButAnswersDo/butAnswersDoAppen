@@ -31,7 +31,7 @@
         android:checked="false"
         android:layout_column="1"
         android:layout_row="0"
-        android:onClick="onClickCheckBox1"
+        android:onClick="onClickCheckBox2"
         android:layout_below="@+id/editText"
         android:layout_toEndOf="@+id/editText" />
 
@@ -43,7 +43,7 @@
         android:checked="false"
         android:layout_row="3"
         android:layout_column="1"
-        android:onClick="onClickCheckBox2"
+        android:onClick="onClickCheckBox3"
         android:layout_below="@+id/checkBox1"
         android:layout_alignEnd="@+id/checkBox1" />
 
