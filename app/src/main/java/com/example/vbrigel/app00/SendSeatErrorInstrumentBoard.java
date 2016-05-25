@@ -63,7 +63,7 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
             message = message + "Varnar för lågt lufttryck, ";
         if (checked2)
             message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -81,7 +81,7 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
             message = message + "Varnar för lågt lufttryck, ";
         if (checked2)
             message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);

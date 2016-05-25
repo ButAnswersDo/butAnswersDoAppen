@@ -72,7 +72,7 @@ public class SendChargingError extends Activity {
             message = message + "Bussen laddades inte fullt, ";
         if (checked3)
             message = message + "Pantografen fäster inte, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message="";
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);
@@ -92,7 +92,7 @@ public class SendChargingError extends Activity {
             message = message + "Bussen laddades inte fullt, ";
         if (checked3)
             message = message + "Pantografen fäster inte, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
         message="";
         Intent popup = new Intent(this, PopUpClass.class);
         startActivity(popup);

@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 
@@ -77,7 +76,7 @@ public class SendDoorError extends AppCompatActivity{
             message = message + "Dörren kan inte stängas, ";
         if (checkBox3)
             message = message + "Dörren kan inte öppnas, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message=""; //Resets the message
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -97,7 +96,7 @@ public class SendDoorError extends AppCompatActivity{
             message = message + "Dörren kan inte stängas, ";
         if (checkBox3)
             message = message + "Dörren kan inte öppnas, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
         message=""; //Resets the message
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);

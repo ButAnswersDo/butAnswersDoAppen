@@ -66,7 +66,7 @@ public class SendSeatErrorOther extends AppCompatActivity {
             message = message + "Förarmicken ur funktion, ";
         if (checked2)
             message = message + "Radio ur funktion, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message="";
 
         Intent popup = new Intent (this, PopUpClass.class);
@@ -85,7 +85,7 @@ public class SendSeatErrorOther extends AppCompatActivity {
             message = message + "Förarmicken ur funktion, ";
         if (checked1)
             message = message + "Radio ur funktion, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+        HelperClass.setMessage("Åtgärda felet ikväll " + message+ ", "+commentText2);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);

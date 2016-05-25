@@ -65,7 +65,7 @@ public class SendSeatErrorChair extends AppCompatActivity {
             message = message + "Fel på reglage, ";
         if (checked2)
             message = message + "Stolsvärme ur funktion, ";
-        HelperClass.setMessage("Skicka hjälp nu! " + message + ", "+commentText);
+        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);
         startActivity(popup);
@@ -83,7 +83,7 @@ public class SendSeatErrorChair extends AppCompatActivity {
             message = message + "Fel på reglage, ";
         if (checked2)
             message = message + "Stolsvärme ur funktion, ";
-        HelperClass.setMessage("Åtgärda felet senare " + message+ ", "+commentText2);
+        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
         message="";
 
         Intent popup = new Intent (this, PopUpClass.class);
