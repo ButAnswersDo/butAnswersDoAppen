@@ -35,8 +35,7 @@ public class PopUpClass extends Activity {
         if(HelperClass.getErrorCategory().equals("Annat fel"))
             report1.setText("Felorsak: "+HelperClass.getErrorCategory());
         else
-            report1.setText("Felorsak: "+HelperClass.getErrorCategory()+HelperClass.getErrorSubCategory());
-
+            report1.setText("Felorsak: "+HelperClass.getErrorCategory()+" "+HelperClass.getErrorSubCategory());
         report2.setText("Kommentar: "+HelperClass.getMessage());
         Firebase.setAndroidContext(this);
         myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");

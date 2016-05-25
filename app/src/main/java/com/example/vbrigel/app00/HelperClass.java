@@ -115,6 +115,6 @@ public class HelperClass {
      * @return Returns a string with all the information regarding errors and timestamp.
      */
     public static String getOutput() {
-        return getCurrentTimeStamp()+", "+errorCategory+", "+errorSubCategory+", "+criticality+", "+message;
+        return getCurrentTimeStamp()+", "+errorCategory+", "+errorSubCategory+", "+message;
     }
 }
