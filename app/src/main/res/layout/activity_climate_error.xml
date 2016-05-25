@@ -32,16 +32,16 @@
                 android:layout_weight="0.22" />
 
             <Button
-                android:layout_width="186dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="Temperatur förare"
                 android:onClick="climateDriverClicked"
                 android:id="@+id/frontButton"
                 android:layout_gravity="center_horizontal" />
 
             <Button
-                android:layout_width="185dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="Temperatur buss"
                 android:onClick="climateBusClicked"
                 android:id="@+id/midleButton"

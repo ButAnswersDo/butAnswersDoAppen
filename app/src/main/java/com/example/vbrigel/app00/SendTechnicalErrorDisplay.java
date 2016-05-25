@@ -42,7 +42,7 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
     public void onClickCheckBox2(View view) {
         if(view instanceof CheckBox) {
             CheckBox box2 = (CheckBox) view;
-            checked1 = box2.isChecked();
+            checked2 = box2.isChecked();
         }
     }
 

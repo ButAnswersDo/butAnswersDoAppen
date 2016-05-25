@@ -24,16 +24,15 @@
             android:weightSum="1">
 
             <TextView
-                android:layout_width="229dp"
+                android:layout_width="276dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Felkategori --> Tekniskt Fel"
                 android:id="@+id/heading"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.22" />
+                android:layout_gravity="center_horizontal" />
 
             <Button
-                android:layout_width="186dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Display och högtalare"
                 android:onClick="displayClicked"
@@ -41,7 +40,7 @@
                 android:layout_gravity="center_horizontal" />
 
             <Button
-                android:layout_width="185dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Biljettautomat"
                 android:onClick="ticketClicked"

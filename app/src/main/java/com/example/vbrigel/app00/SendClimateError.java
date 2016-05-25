@@ -20,6 +20,7 @@ public class SendClimateError extends AppCompatActivity {
 
     private Boolean checked1 = false;
     private Boolean checked2 = false;
+    private Boolean checked3 = false;
     String message = "";
 
     /**
@@ -48,9 +49,17 @@ public class SendClimateError extends AppCompatActivity {
     public void onClickCheckBox2(View view) {
         if(view instanceof CheckBox) {
             CheckBox box2 = (CheckBox) view;
-            checked1 = box2.isChecked();
+            checked2 = box2.isChecked();
         }
     }
+
+    public void onClickCheckBox3(View view) {
+        if(view instanceof CheckBox) {
+            CheckBox box3 = (CheckBox) view;
+            checked3 = box3.isChecked();
+        }
+    }
+
 
     /**
      * This method is created for the button "HelpNow" and renders a message to be sent to the database. It also displays a message that the error will be handled immediately.
@@ -64,6 +73,8 @@ public class SendClimateError extends AppCompatActivity {
             message = message + "Det är för varmt, ";
         if (checked2)
             message = message + "Det är för kallt, ";
+        if(checked3)
+            message = message + "Blåset funkar inte, ";
         HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
         message="";
         Intent popup = new Intent (this, PopUpClass.class);

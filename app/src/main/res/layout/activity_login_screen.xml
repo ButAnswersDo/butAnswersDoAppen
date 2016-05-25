@@ -18,7 +18,8 @@
         android:text="Välj din buss!"
         android:id="@+id/textView6"
         android:layout_above="@+id/spin"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp" />
 
     <Button
         android:layout_width="wrap_content"
