@@ -17,7 +17,6 @@ import android.widget.EditText;
  * @since   2016-05-11
  */
 public class SendClimateError extends AppCompatActivity {
-
     private Boolean checked1 = false;
     private Boolean checked2 = false;
     private Boolean checked3 = false;

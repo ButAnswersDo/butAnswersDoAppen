@@ -19,7 +19,6 @@ import com.firebase.client.Firebase;
  * @since   2016-05-11
  */
 public class SendDoorError extends AppCompatActivity{
-    private Firebase myFirebaseRef;
     private Boolean checkBox1 = false; //A boolean variable tied to each checkbox containing a quote.
     private Boolean checkBox2 = false;
     private Boolean checkBox3 = false;
@@ -35,7 +34,6 @@ public class SendDoorError extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_door1);
         Firebase.setAndroidContext(this);
-        myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com"); //Creates the database reference
     }
 
     /**
