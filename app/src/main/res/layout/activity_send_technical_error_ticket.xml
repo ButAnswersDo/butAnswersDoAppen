@@ -14,41 +14,38 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dörren gnisslar"
+        android:text="Fel på kortläsare fram"
         android:id="@+id/checkBox1"
         android:checked="false"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/checkBox2"
-        android:layout_alignParentLeft="true"
         android:layout_column="1"
         android:layout_row="0"
-        android:onClick="onClickCheckBox1"/>
-
+        android:onClick="onClickCheckBox1"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/editText" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dörren kan inte stängas"
+        android:text="Fel på kortläsare mitten"
         android:id="@+id/checkBox2"
         android:checked="false"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_row="3"
         android:layout_column="1"
-        android:onClick="onClickCheckBox2"/>
+        android:layout_row="0"
+        android:onClick="onClickCheckBox2"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/editText" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dörren kan inte öppnas"
-        android:id="@+id/checkBox"
-        android:layout_alignParentStart="true"
+        android:text="Fel på kortläsare bak"
+        android:id="@+id/checkBox3"
         android:checked="false"
-        android:layout_below="@+id/checkBox1"
-        android:layout_alignParentLeft="true"
-        android:layout_row="1"
+        android:layout_row="3"
         android:layout_column="1"
-        android:onClick="onClickCheckBox3"/>
+        android:onClick="onClickCheckBox3"
+        android:layout_below="@+id/checkBox1"
+        android:layout_alignEnd="@+id/checkBox1" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,7 +53,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Övrig kommentar"
         android:id="@+id/textView8"
-        android:layout_column="1" />
+        android:layout_column="1"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2"
+         />
 
     <EditText
         android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
             android:text="Åtgärda under dagen"
             android:id="@+id/button2"
             android:layout_column="1"
-            android:onClick="helpNowDoor"
+            android:onClick="helpNowTechnical2"
             android:layout_gravity="top" />
 
         <Button
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="Åtgärda ikväll"
             android:id="@+id/button3"
-            android:onClick="helpLaterDoor"
+            android:onClick="helpLaterTechnical2"
             android:layout_column="2"
             android:layout_gravity="top" />
 

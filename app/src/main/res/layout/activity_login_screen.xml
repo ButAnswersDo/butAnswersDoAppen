@@ -18,14 +18,23 @@
         android:text="Välj din buss!"
         android:id="@+id/textView6"
         android:layout_above="@+id/spin"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Okej"
         android:id="@+id/button"
+        android:onClick="selectBuss"
         android:layout_below="@+id/spin"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:onClick="reportError"/>
+        android:background="@drawable/logo6"
+        android:layout_above="@+id/textView6" />
 </RelativeLayout>

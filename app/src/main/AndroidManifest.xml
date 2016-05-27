@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vbrigel.app00">
 
+    <uses-sdk android:minSdkVersion="21" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,9 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".DoorError"></activity>
-        <activity android:name=".DoorSendPage1"></activity>
+        <activity android:name=".DefaultPage" />
+        <activity android:name=".SubCategoryDoors" />
+        <activity android:name=".SendDoorError" />
+        <activity android:name=".PopUpClass" />
+        <activity android:name=".SubCategoryOther" />
+        <activity android:name=".SubCategoryCharging" />
+        <activity android:name=".SendChargingError" />
+        <activity android:name=".SubCategoryClimate" />
+        <activity android:name=".SendClimateError" />
+        <activity android:name=".SubCategorySeat" />
+        <activity android:name=".SendSeatErrorChair" />
+        <activity android:name=".SendSeatErrorInstrumentBoard" />
+        <activity android:name=".SendSeatErrorOther" />
+        <activity android:name=".SendTechnicalErrorDisplay" />
+        <activity android:name=".SendTechnicalErrorTicket" />
+        <activity android:name=".SubCategoryTechnical"></activity>
     </application>
 
 </manifest>

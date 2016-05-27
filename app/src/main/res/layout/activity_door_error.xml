@@ -36,7 +36,7 @@
             android:layout_weight="0.22" />
 
         <Button
-            android:layout_width="186dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Framdörr"
             android:onClick="frontDoorClicked"
@@ -44,7 +44,7 @@
             android:layout_gravity="center_horizontal" />
 
         <Button
-            android:layout_width="185dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mittendörr"
             android:onClick="centreDoorClicked"
@@ -52,7 +52,7 @@
             android:layout_gravity="center_horizontal" />
 
         <Button
-            android:layout_width="185dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bakdörr"
             android:id="@+id/backButton"
@@ -60,7 +60,7 @@
             android:layout_gravity="center_horizontal" />
 
         <Button
-            android:layout_width="185dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Flera dörrar"
             android:id="@+id/multipleButton"
