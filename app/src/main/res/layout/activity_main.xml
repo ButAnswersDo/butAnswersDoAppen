@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
-<data>
-
-</data>
 
     <ScrollView
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
-    <RelativeLayout
 
+    <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,9 +25,10 @@
         android:textStyle="bold" />
 
         <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/doorButton"
+            android:contentDescription="Dörrfel"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/doorButton"
             android:background="@drawable/door"
             android:onClick="onClickDoorButton"
             android:cropToPadding="false"
@@ -41,40 +37,36 @@
             android:layout_alignStart="@+id/heading" />
 
         <ImageButton
+            android:contentDescription="Klimatfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/climateButton"
             android:background="@drawable/temp"
             android:cropToPadding="false"
             android:adjustViewBounds="false"
-            android:enabled="false"
             android:layout_above="@+id/climate"
             android:layout_alignEnd="@+id/heading"
             android:layout_alignTop="@+id/doorButton"
-            android:layout_alignRight="@+id/heading"
             android:onClick="onClickClimateButton" />
 
         <ImageButton
+            android:contentDescription="Förarplatsfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/driverButton"
             android:background="@drawable/driver"
-            android:cropToPadding="false"
-            android:adjustViewBounds="false"
-            android:enabled="false"
             android:layout_below="@+id/door"
             android:layout_alignStart="@+id/doorButton"
-            android:layout_alignLeft="@+id/doorButton"
             android:onClick="onClickDriverSeatButton" />
 
         <ImageButton
+            android:contentDescription="Tekniskt fel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/technicalButton"
             android:background="@drawable/technical"
             android:cropToPadding="false"
             android:adjustViewBounds="false"
-            android:enabled="false"
             android:layout_alignTop="@+id/driverButton"
             android:layout_alignStart="@+id/climate"
             android:onClick="onClickTechnicalButton" />
@@ -86,12 +78,10 @@
             android:text="Dörrfel"
             android:id="@+id/door"
             android:layout_below="@+id/doorButton"
-            android:layout_alignLeft="@+id/doorButton"
             android:layout_alignStart="@+id/doorButton"
-            android:layout_alignRight="@+id/driverButton"
             android:layout_alignEnd="@+id/driverButton"
             android:textAlignment="center"
-            android:textSize="17dp" />
+            android:textSize="17sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -100,12 +90,10 @@
             android:text="Klimatfel"
             android:id="@+id/climate"
             android:textAlignment="center"
-            android:textSize="17dp"
-            android:layout_alignRight="@+id/climateButton"
+            android:textSize="17sp"
             android:layout_alignEnd="@+id/climateButton"
             android:layout_alignTop="@+id/door"
             android:layout_alignBottom="@+id/door"
-            android:layout_alignLeft="@+id/climateButton"
             android:layout_alignStart="@+id/climateButton" />
 
         <TextView
@@ -115,11 +103,9 @@
             android:text="Förarplatsfel"
             android:id="@+id/driver"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/driverButton"
-            android:layout_alignLeft="@+id/door"
             android:layout_alignStart="@+id/door"
-            android:layout_alignRight="@+id/driverButton"
             android:layout_alignEnd="@+id/driverButton" />
 
         <TextView
@@ -129,15 +115,14 @@
             android:text="Tekniskt fel"
             android:id="@+id/techincal"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/technicalButton"
-            android:layout_alignLeft="@+id/technicalButton"
             android:layout_alignStart="@+id/technicalButton"
             android:layout_alignBottom="@+id/driver"
-            android:layout_alignRight="@+id/technicalButton"
             android:layout_alignEnd="@+id/technicalButton" />
 
         <ImageButton
+            android:contentDescription="Annat fel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:cropToPadding="false"
@@ -156,14 +141,13 @@
             android:text="Annat fel"
             android:id="@+id/otherText"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/otherButton"
-            android:layout_alignLeft="@+id/otherButton"
             android:layout_alignStart="@+id/otherButton"
-            android:layout_alignRight="@+id/otherButton"
             android:layout_alignEnd="@+id/otherButton" />
 
         <ImageButton
+            android:contentDescription="Laddningsfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:cropToPadding="false"
@@ -182,12 +166,11 @@
             android:text="Laddningsfel"
             android:id="@+id/elecText"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/electricityButton"
-            android:layout_alignLeft="@+id/electricityButton"
             android:layout_alignStart="@+id/electricityButton"
-            android:layout_alignRight="@+id/electricityButton"
             android:layout_alignEnd="@+id/electricityButton" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -197,7 +180,6 @@
             android:layout_alignParentBottom="true"
             android:layout_alignEnd="@+id/otherText"
             android:layout_alignStart="@+id/elecText" />
-
     </RelativeLayout>
 </ScrollView>
 </layout>

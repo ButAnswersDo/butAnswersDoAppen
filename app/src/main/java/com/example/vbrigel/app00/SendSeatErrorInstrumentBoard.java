@@ -57,16 +57,19 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
      */
 
     public void helpNowDriverSeat2(View view) {
-        final EditText myInput1 = (EditText)findViewById(R.id.editText);
-        String commentText = (myInput1.getText().toString());
-        if (checked1)
-            message = message + "Varnar för lågt lufttryck, ";
-        if (checked2)
-            message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
-        message="";
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editTextCharge);
+        if(check instanceof EditText) {
+            final EditText myInput1 = (EditText) check;
+            String commentText = (myInput1.getText().toString());
+            if (checked1)
+                message = message + "Varnar för lågt lufttryck, ";
+            if (checked2)
+                message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
+            HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 
     /**
@@ -75,15 +78,18 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
      */
 
     public void helpLaterDriverSeat2(View view) {
-        final EditText myInput2 = (EditText)findViewById(R.id.editText);
-        String commentText2 = (myInput2.getText().toString());
-        if (checked1)
-            message = message + "Varnar för lågt lufttryck, ";
-        if (checked2)
-            message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
-        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
-        message="";
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editTextCharge);
+        if(check instanceof EditText) {
+            final EditText myInput2 = (EditText) check;
+            String commentText2 = (myInput2.getText().toString());
+            if (checked1)
+                message = message + "Varnar för lågt lufttryck, ";
+            if (checked2)
+                message = message + "Gul varning: Stanna, säkerhet, dieselmotor, ";
+            HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 }
