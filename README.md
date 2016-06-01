@@ -1,6 +1,12 @@
 # butAnswersDoAppen
 
-The map protorypeComments contains results and notes of the outcome on the different test (unitTest, acceptanceTest, intigrationTest, findBugs, gitinspector)  that were used on the application. 
+The folder protorypeComments contains results and notes of the outcome on the different test (unitTest, acceptanceTest, intigrationTest, findBugs, gitinspector)  that were used on the application. 
+
+# D1 
+The folder D1 contains the files from the D1 submission. Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
+
+# D2 
+The halftime report can be found at butAnswersDoAppen/Halvtidsrapport.docx. Note that the uppload date is invalid. The file were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the file. 
 
 # Unit Tests
 The code for the unitTests can be found at butAnswersDoAppen/app/src/test/java/com/example/vbrigel/app00/ExampleUnitTest.java.
