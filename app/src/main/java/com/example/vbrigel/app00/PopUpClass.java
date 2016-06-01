@@ -21,24 +21,23 @@ public class PopUpClass extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.popupwindow);
-
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
-
         int width = (int) (dm.widthPixels * 0.8);
         int height = (int) (dm.heightPixels * 0.8);
         getWindow().setLayout(width, height);
-        TextView report1 = (TextView) findViewById(R.id.errorLogg1);
-        TextView report2 =(TextView) findViewById(R.id.errorLogg2);
-        if(HelperClass.getErrorCategory().equals("Annat fel"))
-            report1.setText("Felorsak: "+HelperClass.getErrorCategory());
+        if (check1 instanceof TextView && check2 instanceof TextView){
+            TextView report1 = (TextView) check1;
+            TextView report2 = (TextView) check2;
+        if (HelperClass.getErrorCategory().equals("Annat fel"))
+            report1.setText("Felorsak: " + HelperClass.getErrorCategory());
         else
-            report1.setText("Felorsak: "+HelperClass.getErrorCategory()+" "+HelperClass.getErrorSubCategory());
-        report2.setText("Kommentar: "+HelperClass.getMessage());
+            report1.setText("Felorsak: " + HelperClass.getErrorCategory() + " " + HelperClass.getErrorSubCategory());
+        report2.setText("Kommentar: " + HelperClass.getMessage());
         Firebase.setAndroidContext(this);
         myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com");
+        }
     }
 
     public void sendReport(View view) {

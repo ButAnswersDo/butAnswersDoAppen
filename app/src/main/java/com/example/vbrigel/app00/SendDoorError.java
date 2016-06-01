@@ -66,19 +66,21 @@ public class SendDoorError extends AppCompatActivity{
      * @param view Takes in a view(button) generated from the activity_send_door1.xml.
      */
     public void helpNowDoor(View view) {
-        final EditText myInput1 = (EditText)findViewById(R.id.editText);
-        String commentText = (myInput1.getText().toString());
-        if (checkBox1)
-            message = message + "Dörren gnisslar, ";
-        if (checkBox2)
-            message = message + "Dörren kan inte stängas, ";
-        if (checkBox3)
-            message = message + "Dörren kan inte öppnas, ";
-        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
-        message=""; //Resets the message
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
-        onStop();
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput1 = (EditText) check;
+            String commentText = (myInput1.getText().toString());
+            if (checkBox1)
+                message = message + "Dörren gnisslar, ";
+            if (checkBox2)
+                message = message + "Dörren kan inte stängas, ";
+            if (checkBox3)
+                message = message + "Dörren kan inte öppnas, ";
+            HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
+            message = ""; //Resets the message
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 
     /**
@@ -86,19 +88,22 @@ public class SendDoorError extends AppCompatActivity{
      * @param view Takes in a view(button) generated from the activity_send_door1.xml.
      */
     public void helpLaterDoor(View view) {
-        final EditText myInput2 = (EditText)findViewById(R.id.editText);
-        String commentText2 = (myInput2.getText().toString());
-        if (checkBox1)
-            message = message + "Dörren gnisslar, ";
-        if (checkBox2)
-            message = message + "Dörren kan inte stängas, ";
-        if (checkBox3)
-            message = message + "Dörren kan inte öppnas, ";
-        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
-        message=""; //Resets the message
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
-        onStop();
+
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput2 = (EditText) check;
+            String commentText2 = (myInput2.getText().toString());
+            if (checkBox1)
+                message = message + "Dörren gnisslar, ";
+            if (checkBox2)
+                message = message + "Dörren kan inte stängas, ";
+            if (checkBox3)
+                message = message + "Dörren kan inte öppnas, ";
+            HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
+            message = ""; //Resets the message
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 }
 

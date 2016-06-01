@@ -59,18 +59,21 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
      */
 
     public void helpNowTechnical1(View view) {
-        final EditText myInput1 = (EditText)findViewById(R.id.editText);
-        String commentText = (myInput1.getText().toString());
-        if (checked1)
-            message = message + "Fel på display utvändigt, ";
-        if (checked2)
-            message = message + "Fel på display invändigt, ";
-        if (checked3)
-            message = message + "Högtalare ur funktion, ";
-        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
-        message="";
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput1 = (EditText) check;
+            String commentText = (myInput1.getText().toString());
+            if (checked1)
+                message = message + "Fel på display utvändigt, ";
+            if (checked2)
+                message = message + "Fel på display invändigt, ";
+            if (checked3)
+                message = message + "Högtalare ur funktion, ";
+            HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 
     /**
@@ -79,18 +82,20 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
      */
 
     public void helpLaterTechnical1(View view) {
-        final EditText myInput2 = (EditText)findViewById(R.id.editText);
-        String commentText2 = (myInput2.getText().toString());
-        if (checked1)
-            message = message + "Fel på display utvändigt, ";
-        if (checked2)
-            message = message + "Fel på display invändigt, ";
-        if (checked3)
-            message = message + "Högtalare ur funktion, ";
-        HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
-        message="";
-
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput2 = (EditText) check;
+            String commentText2 = (myInput2.getText().toString());
+            if (checked1)
+                message = message + "Fel på display utvändigt, ";
+            if (checked2)
+                message = message + "Fel på display invändigt, ";
+            if (checked3)
+                message = message + "Högtalare ur funktion, ";
+            HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 }

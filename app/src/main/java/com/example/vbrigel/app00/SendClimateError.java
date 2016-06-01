@@ -66,18 +66,21 @@ public class SendClimateError extends AppCompatActivity {
      */
 
     public void helpNowClimate(View view) {
-        final EditText myInput1 = (EditText)findViewById(R.id.editText);
-        String commentText = (myInput1.getText().toString());
-        if (checked1)
-            message = message + "Det är för varmt, ";
-        if (checked2)
-            message = message + "Det är för kallt, ";
-        if(checked3)
-            message = message + "Blåset funkar inte, ";
-        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
-        message="";
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput1 = (EditText) check;
+            String commentText = (myInput1.getText().toString());
+            if (checked1)
+                message = message + "Det är för varmt, ";
+            if (checked2)
+                message = message + "Det är för kallt, ";
+            if (checked3)
+                message = message + "Blåset funkar inte, ";
+            HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 
     /**
@@ -86,15 +89,18 @@ public class SendClimateError extends AppCompatActivity {
      */
 
     public void helpLaterClimate(View view) {
-        final EditText myInput2 = (EditText)findViewById(R.id.editText);
-        String commentText2 = (myInput2.getText().toString());
-        if (checked1)
-            message = message + "Det är för varmt, ";
-        if (checked2)
-            message = message + "Det är för kallt, ";
-        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
-        message="";
-        Intent popup = new Intent (this, PopUpClass.class);
-        startActivity(popup);
+        View check = findViewById(R.id.editText);
+        if(check instanceof EditText) {
+            final EditText myInput2 = (EditText) check;
+            String commentText2 = (myInput2.getText().toString());
+            if (checked1)
+                message = message + "Det är för varmt, ";
+            if (checked2)
+                message = message + "Det är för kallt, ";
+            HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 }

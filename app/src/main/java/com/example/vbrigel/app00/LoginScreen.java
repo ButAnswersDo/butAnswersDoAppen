@@ -30,10 +30,13 @@ public class LoginScreen extends Activity {
      * @param view The view that was clicked and created in the activity_login_screen.xml file.
      */
     public void selectBuss(View view){
+        View check = findViewById(R.id.spin);
         Intent startDefaultPage = new Intent (this, DefaultPage.class);
         startActivity(startDefaultPage);
-        final Spinner spinnerbus = (Spinner) findViewById(R.id.spin); //Creates a spinner
-        String busName = spinnerbus.getSelectedItem().toString();
-        HelperClass.setBusName(busName);
+        if(check instanceof Spinner) {
+            final Spinner spinnerbus = (Spinner) check; //Creates a spinner
+            String busName = spinnerbus.getSelectedItem().toString();
+            HelperClass.setBusName(busName);
+        }
     }
 }

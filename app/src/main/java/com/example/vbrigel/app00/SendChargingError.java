@@ -64,18 +64,20 @@ public class SendChargingError extends Activity {
      */
 
     public void helpNowCharging(View view) {
-        final EditText myInput1 = (EditText)findViewById(R.id.editTextCharge);
-        String commentText = (myInput1.getText().toString());
-        if (checked1)
-            message = message + "Laddstation ur funktion, ";
-        if (checked2)
-            message = message + "Bussen laddades inte fullt, ";
-        if (checked3)
-            message = message + "Pantografen fäster inte, ";
-        HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", "+commentText);
-        message="";
-        Intent popup = new Intent(this, PopUpClass.class);
-        startActivity(popup);
+        if(check instanceof EditText) {
+            final EditText myInput1 = (EditText) check;
+            String commentText = (myInput1.getText().toString());
+            if (checked1)
+                message = message + "Laddstation ur funktion, ";
+            if (checked2)
+                message = message + "Bussen laddades inte fullt, ";
+            if (checked3)
+                message = message + "Pantografen fäster inte, ";
+            HelperClass.setMessage("Åtgärda felet under dagen! " + message + ", " + commentText);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 
     /**
@@ -84,17 +86,19 @@ public class SendChargingError extends Activity {
      */
 
     public void helpLaterCharging(View view) {
-        final EditText myInput2 = (EditText)findViewById(R.id.editTextCharge);
-        String commentText2 = (myInput2.getText().toString());
-        if (checked1)
-            message = message + "Laddstation ur funktion, ";
-        if (checked2)
-            message = message + "Bussen laddades inte fullt, ";
-        if (checked3)
-            message = message + "Pantografen fäster inte, ";
-        HelperClass.setMessage("Åtgärda felet ikväll! " + message+ ", "+commentText2);
-        message="";
-        Intent popup = new Intent(this, PopUpClass.class);
-        startActivity(popup);
+        if(check instanceof EditText) {
+            final EditText myInput2 = (EditText) check;
+                    String commentText2 = (myInput2.getText().toString());
+            if (checked1)
+                message = message + "Laddstation ur funktion, ";
+            if (checked2)
+                message = message + "Bussen laddades inte fullt, ";
+            if (checked3)
+                message = message + "Pantografen fäster inte, ";
+            HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
+            message = "";
+            Intent popup = new Intent(this, PopUpClass.class);
+            startActivity(popup);
+        }
     }
 }
