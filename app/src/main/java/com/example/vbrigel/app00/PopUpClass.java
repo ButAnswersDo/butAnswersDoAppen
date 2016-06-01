@@ -27,6 +27,8 @@ public class PopUpClass extends Activity {
         int width = (int) (dm.widthPixels * 0.8);
         int height = (int) (dm.heightPixels * 0.8);
         getWindow().setLayout(width, height);
+        View check1 = findViewById(R.id.errorLogg1);
+        View check2 = findViewById(R.id.errorLogg2);
         if (check1 instanceof TextView && check2 instanceof TextView){
             TextView report1 = (TextView) check1;
             TextView report2 = (TextView) check2;

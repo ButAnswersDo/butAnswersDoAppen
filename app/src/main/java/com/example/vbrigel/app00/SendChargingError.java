@@ -64,6 +64,7 @@ public class SendChargingError extends Activity {
      */
 
     public void helpNowCharging(View view) {
+        View check = findViewById(R.id.editTextCharge);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             String commentText = (myInput1.getText().toString());
@@ -86,6 +87,7 @@ public class SendChargingError extends Activity {
      */
 
     public void helpLaterCharging(View view) {
+        View check = findViewById(R.id.editTextCharge);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
                     String commentText2 = (myInput2.getText().toString());
