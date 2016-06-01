@@ -13,7 +13,7 @@ public class HelperClass {
     private static String errorCategory;
     private static String errorSubCategory;
     private static String message;
-    private static String criticality;
+
 
     /**
      * This method sets the busname.
@@ -46,13 +46,6 @@ public class HelperClass {
     public static void setMessage(String errorMessage){
         message=errorMessage;
     }
-    /**
-     * This method sets the cricticality.
-     * @param critical
-     */
-    public static void setCriticality(String critical){
-        criticality=critical;
-    }
 
     /**
      * This method get and returns the name/ID of the bus.
@@ -84,15 +77,6 @@ public class HelperClass {
      */    public static String getMessage(){
         return message;
     }
-
-    /**
-     * This method get and return the criticality.
-     * @return Returns the error sub category.
-     */
-    public static String getCriticality(){
-        return criticality;
-    }
-
 
     /**
      * This method gets the current time stamp from the android device.
