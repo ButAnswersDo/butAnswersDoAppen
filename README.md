@@ -1,6 +1,5 @@
 # butAnswersDoAppen
 
-The folder protorypeComments contains results and notes of the outcome on the different test (unitTest, acceptanceTest, intigrationTest, findBugs, gitinspector)  that were used on the application. 
 
 # D1 
 The folder D1 contains the files from the D1 submission (initial vission, social contract and initial product backlogg). Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
