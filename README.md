@@ -6,14 +6,30 @@ Applikationen använder sig av firebase men ingen kod är skriven där utan. Om 
 # D1 
 The folder D1 contains the files from the D1 submission (initial vision, social contract and initial product backlog). Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
 
+
 # D2 
 The halftime report can be found at butAnswersDoAppen/Halvtidsrapport.docx. Note that the uppload date is invalid. The file were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the file. 
 
+
 # FindBugs report
-The FindBugs report can be found in the folder butAnswersDoAppen/findBugsReports/.
+The FindBugs report can be found in the folder butAnswersDoAppen/findBugsReports/
 Note that there are two diffrent reports made on diffrent confidence leavels in FindBugs. One is set on the confidence level LOW. The other is set on confidence level MEDIUM. Comments on the reports can be found at butAnswersDoAppen/prototypeComments/findBugs.pdf 
 
-#prototypeComments
+
+# Product Backlog
+The product backlog from the project can be found at butAnswersDoAppen/productBacklogg.xlsx
+The file contains the backlogs from all four sprints.
+
+
+# Reflectionreport
+The reflectionreport can be found at butAnswersDoAppen/Reflektionsrapport ButAnswersDo PDF.pdf
+
+
+# Vision
+The final version of the vision can be found at butAnswersDoAppen/ProjektVision.docx
+
+
+# prototypeComments
 Prototype comments contains text files with comments on: unit tests, acceptance tests, integration tests, find bugs, gitInspector and codeComments
 
 ## Unit Tests
