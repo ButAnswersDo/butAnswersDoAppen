@@ -1,5 +1,5 @@
 # butAnswersDoAppen
-
+Android applikationen 55 problems - reporting made easy utvecklades i kursen Software Engineering Project (DAT255) på Chalmers Tekniska Högskola av utvecklingsteamet ButAnswersDo beståendes av Vincent Brigel, Anton Kärrman, Anton Ottosson, Axel Rebner, Olof Wireklint och David Åsenhielm. Utveckling skedde under kursens gång under april och maj månad 2016. Applikationen utvecklades i syfte att underlätta felrapporteringen för busslinje 55 som går i Göteborgs busstrafik. Applikationens utformning har baserats på en tydlig vision som tagits fram av projektgruppen och som varit underlag för utvecklingsprocessen.
 
 # D1 
 The folder D1 contains the files from the D1 submission (initial vission, social contract and initial product backlogg). Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
