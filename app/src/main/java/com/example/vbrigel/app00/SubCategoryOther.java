@@ -20,7 +20,7 @@ public class SubCategoryOther extends AppCompatActivity{
 
     public void helpNow(View view) {
         HelperClass.setErrorSubCategory("Annat fel");
-        View check = findViewById(R.id.editText);
+        View check = findViewById(R.id.editTextOther);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             HelperClass.setMessage("Åtgärda felet under dagen! " + myInput1.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
@@ -31,7 +31,7 @@ public class SubCategoryOther extends AppCompatActivity{
 
     public void helpLater(View view) {
         HelperClass.setErrorSubCategory("Annat fel");
-        View check = findViewById(R.id.editText);
+        View check = findViewById(R.id.editTextOther);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
             HelperClass.setMessage("Åtgärda felet ikväll! " + myInput2.getText().toString()); //Takes the message typed by the bus driver and set it with the helper class.
