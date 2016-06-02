@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://findbugs.sourceforge.net/xsl/default.xsl"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1464868118993" analysisTimestamp="1464868114048" release="">
+  <Project projectName="butAnswersDoAppen">
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DataBinderMapper$InnerBrLookup.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DataBinderMapper.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DataBinderMapper.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DataBindingComponent.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DataBindingComponent.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DynamicUtil.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/DynamicUtil.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/databinding/layouts/DataBindingInfo.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$anim.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$attr.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$bool.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$color.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$dimen.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$drawable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$integer.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$layout.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$string.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$style.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R$styleable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/design/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/BR.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/BR.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/android/databinding/library/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/BR.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/BR.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/BuildConfig.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/databinding/ActivityMainBinding.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/databinding/ActivityMainBinding.java</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/DefaultPage.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/HelperClass.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/LoginScreen.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/PopUpClass.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$anim.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$array.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$attr.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$bool.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$color.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$dimen.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$drawable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$id.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$integer.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$layout.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$mipmap.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$string.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$style.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R$styleable.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/R.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendChargingError.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendClimateError.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendDoorError.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendSeatErrorChair.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendSeatErrorInstrumentBoard.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendSeatErrorOther.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendTechnicalErrorDisplay.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SendTechnicalErrorTicket.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategoryCharging.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategoryClimate.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategoryDoors.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategoryOther.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategorySeat.class</Jar>
+    <Jar>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/classes/debug/com/example/vbrigel/app00/SubCategoryTechnical.class</Jar>
+    <AuxClasspathEntry>/Users/Olof/Library/Android/sdk/platforms/android-23/android.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Library/Android/sdk/platforms/android-23/data/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Android Studio.app/Contents/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/compiler/2.1.0/compiler-2.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.1/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.1/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.databinding/library/1.1/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.databinding/library/1.1/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar</AuxClasspathEntry>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/r/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/aidl/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/rs/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/res/rs/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/r/androidTest/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/aidl/androidTest/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/buildConfig/androidTest/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/source/rs/androidTest/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/build/generated/res/rs/androidTest/debug</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/src/main/res</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/src/main/java</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/src/androidTest/java</SrcDir>
+    <SrcDir>/Users/Olof/Desktop/repo/butAnswersDoAppen/app/src/test/java</SrcDir>
+    <Plugin id="edu.umd.cs.findbugs.plugins.core" enabled="true"/>
+  </Project>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="8c49ce8c44ae459a5c13279e039f5cce" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$anim doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$anim" primary="true">
+      <SourceLine classname="android.support.design.R$anim" start="10" end="10" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 10]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$anim</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$anim" start="10" end="10" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="e3b4a7795849fed077287014341ec752" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$attr doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$attr" primary="true">
+      <SourceLine classname="android.support.design.R$attr" start="28" end="28" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 28]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$attr</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$attr" start="28" end="28" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 28]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="2b33195d99fbffdbe88132b49c07f78f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$bool doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$bool" primary="true">
+      <SourceLine classname="android.support.design.R$bool" start="312" end="312" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 312]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$bool</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$bool" start="312" end="312" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 312]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="38bcac2154945339b172737f7c380c64" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$color doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$color" primary="true">
+      <SourceLine classname="android.support.design.R$color" start="322" end="322" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 322]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$color</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$color" start="322" end="322" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 322]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="63c1ee9095614f53e5b4d4973fb23960" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$dimen doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$dimen" primary="true">
+      <SourceLine classname="android.support.design.R$dimen" start="404" end="404" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 404]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$dimen</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$dimen" start="404" end="404" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 404]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="c6344e375f31a55f57070a831c621f6d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$drawable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$drawable" primary="true">
+      <SourceLine classname="android.support.design.R$drawable" start="513" end="513" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 513]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$drawable</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$drawable" start="513" end="513" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 513]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="adcd1a279916d39ab669c77014c4d720" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$id" primary="true">
+      <SourceLine classname="android.support.design.R$id" start="593" end="593" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 593]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$id</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$id" start="593" end="593" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 593]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="364c780d4403e904a8088037b503b8af" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$integer doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$integer" primary="true">
+      <SourceLine classname="android.support.design.R$integer" start="722" end="722" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 722]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$integer</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$integer" start="722" end="722" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 722]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="d0a99c8fe08e6d67e752c0c7a7ac57af" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$layout doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$layout" primary="true">
+      <SourceLine classname="android.support.design.R$layout" start="731" end="731" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 731]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$layout</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$layout" start="731" end="731" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 731]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="37795884cefa647d1c59996384cba87d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$string doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$string" primary="true">
+      <SourceLine classname="android.support.design.R$string" start="782" end="782" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 782]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$string</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$string" start="782" end="782" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 782]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="6cc9d0d2362203c359482975308dcdef" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$style doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$style" primary="true">
+      <SourceLine classname="android.support.design.R$style" start="807" end="807" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[line 807]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$style</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$style" start="807" end="807" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[line 807]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="f9512fbf3d4b99e8dc32ddd38bd206e1" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.design.R$styleable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.design.R$styleable" primary="true">
+      <SourceLine classname="android.support.design.R$styleable" start="1152" end="1582" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java">
+        <Message>At R.java:[lines 1152-1582]</Message>
+      </SourceLine>
+      <Message>In class android.support.design.R$styleable</Message>
+    </Class>
+    <SourceLine classname="android.support.design.R$styleable" start="1152" end="1582" sourcefile="R.java" sourcepath="android/support/design/R.java" relSourcepath="build/generated/source/r/debug/android/support/design/R.java" synthetic="true">
+      <Message>At R.java:[lines 1152-1582]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="f6a1cbf292ff207d99da7a613befbb74" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$anim doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$anim" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$anim" start="10" end="10" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 10]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$anim</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$anim" start="10" end="10" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="1841a87261af5505ef0bac16428b3ee6" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$attr doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$attr" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$attr" start="22" end="22" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 22]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$attr</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$attr" start="22" end="22" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 22]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="6e15cf5b46efb9b08ec3ad487d23b8db" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$bool doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$bool" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$bool" start="233" end="233" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 233]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$bool</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$bool" start="233" end="233" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 233]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="d721e264e8a73ef86ae94e22cd8cc639" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$color doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$color" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$color" start="243" end="243" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 243]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$color</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$color" start="243" end="243" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 243]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="6c48a87875850baec10124065d2f5610" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$dimen doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$dimen" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$dimen" start="315" end="315" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 315]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$dimen</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$dimen" start="315" end="315" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 315]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="13f703ca4a33017dc948c8ea80d8ec8d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$drawable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$drawable" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$drawable" start="392" end="392" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 392]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$drawable</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$drawable" start="392" end="392" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 392]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="6d9f0f6db2329fa2e6de5bae23c8cc93" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$id" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$id" start="470" end="470" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 470]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$id</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$id" start="470" end="470" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 470]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="9d97a85fb4b15c9f5c7189d477ab1f4d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$integer doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$integer" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$integer" start="565" end="565" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 565]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$integer</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$integer" start="565" end="565" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 565]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="6235b0ac91d4fa4768ae353cfc4409f4" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$layout doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$layout" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$layout" start="572" end="572" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 572]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$layout</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$layout" start="572" end="572" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 572]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="8a0a35ba0abb82cfadea608762efa21f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$string doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$string" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$string" start="611" end="611" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 611]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$string</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$string" start="611" end="611" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 611]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="be71f48a6a0a1a64f7ea54d19087815d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$style doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$style" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$style" start="633" end="633" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[line 633]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$style</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$style" start="633" end="633" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[line 633]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="a7cd7e4c358187a4ea2cd89a8c263e12" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.appcompat.R$styleable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.appcompat.R$styleable" primary="true">
+      <SourceLine classname="android.support.v7.appcompat.R$styleable" start="953" end="1271" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java">
+        <Message>At R.java:[lines 953-1271]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.appcompat.R$styleable</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.appcompat.R$styleable" start="953" end="1271" sourcefile="R.java" sourcepath="android/support/v7/appcompat/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/appcompat/R.java" synthetic="true">
+      <Message>At R.java:[lines 953-1271]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="1dcc322f5d1a6eb9e47867cfb7682a72" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.recyclerview.R$attr doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.recyclerview.R$attr" primary="true">
+      <SourceLine classname="android.support.v7.recyclerview.R$attr" start="10" end="10" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java">
+        <Message>At R.java:[line 10]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.recyclerview.R$attr</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.recyclerview.R$attr" start="10" end="10" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java" synthetic="true">
+      <Message>At R.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="7f65ea8d21f9d09fdb6ed47b20aa4ad8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.recyclerview.R$dimen doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.recyclerview.R$dimen" primary="true">
+      <SourceLine classname="android.support.v7.recyclerview.R$dimen" start="16" end="16" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java">
+        <Message>At R.java:[line 16]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.recyclerview.R$dimen</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.recyclerview.R$dimen" start="16" end="16" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java" synthetic="true">
+      <Message>At R.java:[line 16]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="5891eeb5d9d609bb0e8e08cea707acaa" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.recyclerview.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.recyclerview.R$id" primary="true">
+      <SourceLine classname="android.support.v7.recyclerview.R$id" start="21" end="21" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java">
+        <Message>At R.java:[line 21]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.recyclerview.R$id</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.recyclerview.R$id" start="21" end="21" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java" synthetic="true">
+      <Message>At R.java:[line 21]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="c2307e4bec09f5ad39f2000477f9afe" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name android.support.v7.recyclerview.R$styleable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="android.support.v7.recyclerview.R$styleable" primary="true">
+      <SourceLine classname="android.support.v7.recyclerview.R$styleable" start="24" end="25" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java">
+        <Message>At R.java:[lines 24-25]</Message>
+      </SourceLine>
+      <Message>In class android.support.v7.recyclerview.R$styleable</Message>
+    </Class>
+    <SourceLine classname="android.support.v7.recyclerview.R$styleable" start="24" end="25" sourcefile="R.java" sourcepath="android/support/v7/recyclerview/R.java" relSourcepath="build/generated/source/r/debug/android/support/v7/recyclerview/R.java" synthetic="true">
+      <Message>At R.java:[lines 24-25]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="657d89cb2d3ad210dddfba58b6a42d8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.android.databinding.library.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.android.databinding.library.R$id" primary="true">
+      <SourceLine classname="com.android.databinding.library.R$id" start="10" end="10" sourcefile="R.java" sourcepath="com/android/databinding/library/R.java" relSourcepath="build/generated/source/r/debug/com/android/databinding/library/R.java">
+        <Message>At R.java:[line 10]</Message>
+      </SourceLine>
+      <Message>In class com.android.databinding.library.R$id</Message>
+    </Class>
+    <SourceLine classname="com.android.databinding.library.R$id" start="10" end="10" sourcefile="R.java" sourcepath="com/android/databinding/library/R.java" relSourcepath="build/generated/source/r/debug/com/android/databinding/library/R.java" synthetic="true">
+      <Message>At R.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="67a87c11b74ae406eaa7b0382a6a1f69" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.android.databinding.library.baseAdapters.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.android.databinding.library.baseAdapters.R$id" primary="true">
+      <SourceLine classname="com.android.databinding.library.baseAdapters.R$id" start="10" end="10" sourcefile="R.java" sourcepath="com/android/databinding/library/baseAdapters/R.java" relSourcepath="build/generated/source/r/debug/com/android/databinding/library/baseAdapters/R.java">
+        <Message>At R.java:[line 10]</Message>
+      </SourceLine>
+      <Message>In class com.android.databinding.library.baseAdapters.R$id</Message>
+    </Class>
+    <SourceLine classname="com.android.databinding.library.baseAdapters.R$id" start="10" end="10" sourcefile="R.java" sourcepath="com/android/databinding/library/baseAdapters/R.java" relSourcepath="build/generated/source/r/debug/com/android/databinding/library/baseAdapters/R.java" synthetic="true">
+      <Message>At R.java:[line 10]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="1aa5b97070dd8cebc57f536796e25353" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$anim doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$anim" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$anim" start="11" end="11" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 11]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$anim</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$anim" start="11" end="11" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 11]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="3ccccc1a6aebeb5dcd55344fbbe547dd" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$array doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$array" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$array" start="29" end="29" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 29]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$array</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$array" start="29" end="29" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 29]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="22deeda0293ebe77e9b92bd3a850340d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$attr doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$attr" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$attr" start="32" end="32" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 32]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$attr</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$attr" start="32" end="32" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 32]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="4e5305eec5ede2625ede8f1cd76773c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$bool doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$bool" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$bool" start="1992" end="1992" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 1992]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$bool</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$bool" start="1992" end="1992" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 1992]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="76f00394c8e184ba38e5adcaf14ad2ab" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$color doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$color" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$color" start="2002" end="2002" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2002]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$color</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$color" start="2002" end="2002" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2002]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="a430b1aef0ca0ad291919355e3796540" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$dimen doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$dimen" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$dimen" start="2088" end="2088" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2088]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$dimen</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$dimen" start="2088" end="2088" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2088]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="d74724b8b333a745795f50f743bacf0c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$drawable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$drawable" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$drawable" start="2200" end="2200" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2200]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$drawable</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$drawable" start="2200" end="2200" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2200]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="c716f925cd4639ab95d908dd925722f4" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$id doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$id" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$id" start="2294" end="2294" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2294]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$id</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$id" start="2294" end="2294" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2294]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="27d7e355d6aefc832a8dbdcff1474b8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$integer doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$integer" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$integer" start="2472" end="2472" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2472]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$integer</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$integer" start="2472" end="2472" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2472]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="45a7d956ad5aa8e27cb1cd87b187ad89" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$layout doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$layout" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$layout" start="2481" end="2481" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2481]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$layout</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$layout" start="2481" end="2481" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2481]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="963ab4a89f4956df19e6ecd8962725c0" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$mipmap doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$mipmap" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$mipmap" start="2550" end="2550" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2550]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$mipmap</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$mipmap" start="2550" end="2550" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2550]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="a0469b6dae8f26e6cb134b35220d8551" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$string doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$string" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$string" start="2553" end="2553" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2553]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$string</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$string" start="2553" end="2553" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2553]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="108ec1b783caf7ccf8c94e54b66d67a" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$style doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$style" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$style" start="2580" end="2580" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[line 2580]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$style</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$style" start="2580" end="2580" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[line 2580]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" instanceHash="3476b929f6cf35e2fcf05e863fb2c5e5" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class names should start with an upper case letter</ShortMessage>
+    <LongMessage>The class name com.example.vbrigel.app00.R$styleable doesn&apos;t start with an upper case letter</LongMessage>
+    <Class classname="com.example.vbrigel.app00.R$styleable" primary="true">
+      <SourceLine classname="com.example.vbrigel.app00.R$styleable" start="2930" end="8748" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java">
+        <Message>At R.java:[lines 2930-8748]</Message>
+      </SourceLine>
+      <Message>In class com.example.vbrigel.app00.R$styleable</Message>
+    </Class>
+    <SourceLine classname="com.example.vbrigel.app00.R$styleable" start="2930" end="8748" sourcefile="R.java" sourcepath="com/example/vbrigel/app00/R.java" relSourcepath="build/generated/source/r/debug/com/example/vbrigel/app00/R.java" synthetic="true">
+      <Message>At R.java:[lines 2930-8748]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugPattern type="NM_CLASS_NAMING_CONVENTION" abbrev="Nm" category="BAD_PRACTICE">
+    <ShortDescription>Class names should start with an upper case letter</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Class names should be nouns, in mixed case with the first letter of each internal word capitalized. Try to keep your class names simple and descriptive. Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="Nm">
+    <Description>Confusing method name</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 2 Jun 2016 10:23:17 +0200" total_classes="77" referenced_classes="340" total_bugs="44" total_size="5681" num_packages="9" java_version="1.8.0_31" vm_version="25.31-b07" cpu_seconds="26.40" clock_seconds="41.91" peak_mbytes="756.44" alloc_mbytes="1246.75" gc_seconds="0.80" priority_2="44">
+    <FileStats path="android/databinding/DataBinderMapper.java" bugCount="0" size="30"/>
+    <FileStats path="android/databinding/DataBindingComponent.java" bugCount="0" size="1"/>
+    <FileStats path="android/databinding/DynamicUtil.java" bugCount="0" size="7"/>
+    <FileStats path="android/databinding/layouts/DataBindingInfo.java" bugCount="0" size="3"/>
+    <FileStats path="android/support/design/R.java" bugCount="12" size="1646" bugHash="09a6bd8fbb0d3ddc1d956ad48bb573bd"/>
+    <FileStats path="android/support/v7/appcompat/R.java" bugCount="12" size="1317" bugHash="2dcc9d950ddfe2265ade652f7d12a528"/>
+    <FileStats path="android/support/v7/recyclerview/R.java" bugCount="4" size="32" bugHash="9e5eb2bbc6fa6f69dab4562dd9aaeb88"/>
+    <FileStats path="com/android/databinding/library/R.java" bugCount="1" size="8" bugHash="7676c076466b6f688e2d522765cf7266"/>
+    <FileStats path="com/android/databinding/library/baseAdapters/BR.java" bugCount="0" size="4"/>
+    <FileStats path="com/android/databinding/library/baseAdapters/R.java" bugCount="1" size="11" bugHash="67d782f9d59f0bdbcb3179fa6fdf9b21"/>
+    <FileStats path="com/example/vbrigel/app00/BR.java" bugCount="0" size="4"/>
+    <FileStats path="com/example/vbrigel/app00/BuildConfig.java" bugCount="0" size="11"/>
+    <FileStats path="com/example/vbrigel/app00/DefaultPage.java" bugCount="0" size="48"/>
+    <FileStats path="com/example/vbrigel/app00/HelperClass.java" bugCount="0" size="42"/>
+    <FileStats path="com/example/vbrigel/app00/LoginScreen.java" bugCount="0" size="16"/>
+    <FileStats path="com/example/vbrigel/app00/PopUpClass.java" bugCount="0" size="35"/>
+    <FileStats path="com/example/vbrigel/app00/R.java" bugCount="14" size="1749" bugHash="23755edec2ab30e2cd380f454490c214"/>
+    <FileStats path="com/example/vbrigel/app00/SendChargingError.java" bugCount="0" size="62"/>
+    <FileStats path="com/example/vbrigel/app00/SendClimateError.java" bugCount="0" size="60"/>
+    <FileStats path="com/example/vbrigel/app00/SendDoorError.java" bugCount="0" size="67"/>
+    <FileStats path="com/example/vbrigel/app00/SendSeatErrorChair.java" bugCount="0" size="51"/>
+    <FileStats path="com/example/vbrigel/app00/SendSeatErrorInstrumentBoard.java" bugCount="0" size="51"/>
+    <FileStats path="com/example/vbrigel/app00/SendSeatErrorOther.java" bugCount="0" size="51"/>
+    <FileStats path="com/example/vbrigel/app00/SendTechnicalErrorDisplay.java" bugCount="0" size="62"/>
+    <FileStats path="com/example/vbrigel/app00/SendTechnicalErrorTicket.java" bugCount="0" size="62"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategoryCharging.java" bugCount="0" size="20"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategoryClimate.java" bugCount="0" size="20"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategoryDoors.java" bugCount="0" size="28"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategoryOther.java" bugCount="0" size="25"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategorySeat.java" bugCount="0" size="34"/>
+    <FileStats path="com/example/vbrigel/app00/SubCategoryTechnical.java" bugCount="0" size="25"/>
+    <FileStats path="com/example/vbrigel/app00/databinding/ActivityMainBinding.java" bugCount="0" size="99"/>
+    <PackageStats package="android.databinding" total_bugs="0" total_types="4" total_size="38">
+      <ClassStats class="android.databinding.DataBinderMapper" sourceFile="DataBinderMapper.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="android.databinding.DataBinderMapper$InnerBrLookup" sourceFile="DataBinderMapper.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="android.databinding.DataBindingComponent" sourceFile="DataBindingComponent.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="android.databinding.DynamicUtil" sourceFile="DynamicUtil.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="android.databinding.layouts" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="android.databinding.layouts.DataBindingInfo" sourceFile="DataBindingInfo.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="android.support.design" total_bugs="12" total_types="13" total_size="1646" priority_2="12">
+      <ClassStats class="android.support.design.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="android.support.design.R$anim" sourceFile="R.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$attr" sourceFile="R.java" interface="false" size="285" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$bool" sourceFile="R.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$color" sourceFile="R.java" interface="false" size="83" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$dimen" sourceFile="R.java" interface="false" size="110" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$drawable" sourceFile="R.java" interface="false" size="81" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$id" sourceFile="R.java" interface="false" size="130" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$integer" sourceFile="R.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$layout" sourceFile="R.java" interface="false" size="52" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$string" sourceFile="R.java" interface="false" size="26" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$style" sourceFile="R.java" interface="false" size="346" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.design.R$styleable" sourceFile="R.java" interface="false" size="489" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="android.support.v7.appcompat" total_bugs="12" total_types="13" total_size="1317" priority_2="12">
+      <ClassStats class="android.support.v7.appcompat.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="android.support.v7.appcompat.R$anim" sourceFile="R.java" interface="false" size="13" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$attr" sourceFile="R.java" interface="false" size="212" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$bool" sourceFile="R.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$color" sourceFile="R.java" interface="false" size="73" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$dimen" sourceFile="R.java" interface="false" size="78" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$drawable" sourceFile="R.java" interface="false" size="79" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$id" sourceFile="R.java" interface="false" size="96" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$integer" sourceFile="R.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$layout" sourceFile="R.java" interface="false" size="40" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$string" sourceFile="R.java" interface="false" size="23" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$style" sourceFile="R.java" interface="false" size="321" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.appcompat.R$styleable" sourceFile="R.java" interface="false" size="359" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="android.support.v7.recyclerview" total_bugs="4" total_types="5" total_size="32" priority_2="4">
+      <ClassStats class="android.support.v7.recyclerview.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="android.support.v7.recyclerview.R$attr" sourceFile="R.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.recyclerview.R$dimen" sourceFile="R.java" interface="false" size="6" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.recyclerview.R$id" sourceFile="R.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="android.support.v7.recyclerview.R$styleable" sourceFile="R.java" interface="false" size="11" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.android.databinding.library" total_bugs="1" total_types="2" total_size="8" priority_2="1">
+      <ClassStats class="com.android.databinding.library.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.android.databinding.library.R$id" sourceFile="R.java" interface="false" size="4" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.android.databinding.library.baseAdapters" total_bugs="1" total_types="3" total_size="15" priority_2="1">
+      <ClassStats class="com.android.databinding.library.baseAdapters.BR" sourceFile="BR.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.android.databinding.library.baseAdapters.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.android.databinding.library.baseAdapters.R$id" sourceFile="R.java" interface="false" size="7" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.example.vbrigel.app00" total_bugs="14" total_types="35" total_size="2523" priority_2="14">
+      <ClassStats class="com.example.vbrigel.app00.BR" sourceFile="BR.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.DefaultPage" sourceFile="DefaultPage.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.HelperClass" sourceFile="HelperClass.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.LoginScreen" sourceFile="LoginScreen.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.PopUpClass" sourceFile="PopUpClass.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.R" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.R$anim" sourceFile="R.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$array" sourceFile="R.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$attr" sourceFile="R.java" interface="false" size="285" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$bool" sourceFile="R.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$color" sourceFile="R.java" interface="false" size="87" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$dimen" sourceFile="R.java" interface="false" size="113" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$drawable" sourceFile="R.java" interface="false" size="95" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$id" sourceFile="R.java" interface="false" size="179" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$integer" sourceFile="R.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$layout" sourceFile="R.java" interface="false" size="70" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$mipmap" sourceFile="R.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$string" sourceFile="R.java" interface="false" size="28" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$style" sourceFile="R.java" interface="false" size="351" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.R$styleable" sourceFile="R.java" interface="false" size="489" bugs="1" priority_2="1"/>
+      <ClassStats class="com.example.vbrigel.app00.SendChargingError" sourceFile="SendChargingError.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendClimateError" sourceFile="SendClimateError.java" interface="false" size="60" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendDoorError" sourceFile="SendDoorError.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendSeatErrorChair" sourceFile="SendSeatErrorChair.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendSeatErrorInstrumentBoard" sourceFile="SendSeatErrorInstrumentBoard.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendSeatErrorOther" sourceFile="SendSeatErrorOther.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendTechnicalErrorDisplay" sourceFile="SendTechnicalErrorDisplay.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SendTechnicalErrorTicket" sourceFile="SendTechnicalErrorTicket.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategoryCharging" sourceFile="SubCategoryCharging.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategoryClimate" sourceFile="SubCategoryClimate.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategoryDoors" sourceFile="SubCategoryDoors.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategoryOther" sourceFile="SubCategoryOther.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategorySeat" sourceFile="SubCategorySeat.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="com.example.vbrigel.app00.SubCategoryTechnical" sourceFile="SubCategoryTechnical.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.example.vbrigel.app00.databinding" total_bugs="0" total_types="1" total_size="99">
+      <ClassStats class="com.example.vbrigel.app00.databinding.ActivityMainBinding" sourceFile="ActivityMainBinding.java" interface="false" size="99" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="924" invocations="2" avgMicrosecondsPerInvocation="462354" maxMicrosecondsPerInvocation="760222" standardDeviationMircosecondsPerInvocation="297868"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="542" invocations="9952" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="510045" standardDeviationMircosecondsPerInvocation="5112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="475" invocations="887" avgMicrosecondsPerInvocation="535" maxMicrosecondsPerInvocation="87881" standardDeviationMircosecondsPerInvocation="4010"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="332" invocations="900" avgMicrosecondsPerInvocation="368" maxMicrosecondsPerInvocation="75172" standardDeviationMircosecondsPerInvocation="3208"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="214" invocations="340" avgMicrosecondsPerInvocation="631" maxMicrosecondsPerInvocation="20039" standardDeviationMircosecondsPerInvocation="1840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="113" invocations="196" avgMicrosecondsPerInvocation="579" maxMicrosecondsPerInvocation="16422" standardDeviationMircosecondsPerInvocation="1706"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="108" invocations="196" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="12414" standardDeviationMircosecondsPerInvocation="1430"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="108" invocations="340" avgMicrosecondsPerInvocation="319" maxMicrosecondsPerInvocation="26251" standardDeviationMircosecondsPerInvocation="1657"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="97" invocations="196" avgMicrosecondsPerInvocation="499" maxMicrosecondsPerInvocation="14035" standardDeviationMircosecondsPerInvocation="1311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="97" invocations="196" avgMicrosecondsPerInvocation="498" maxMicrosecondsPerInvocation="16376" standardDeviationMircosecondsPerInvocation="1510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="88" invocations="340" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="41835" standardDeviationMircosecondsPerInvocation="2271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="87" invocations="198" avgMicrosecondsPerInvocation="441" maxMicrosecondsPerInvocation="13291" standardDeviationMircosecondsPerInvocation="1358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="71" invocations="196" avgMicrosecondsPerInvocation="367" maxMicrosecondsPerInvocation="9272" standardDeviationMircosecondsPerInvocation="921"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="67" invocations="340" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="15011" standardDeviationMircosecondsPerInvocation="871"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="62" invocations="77" avgMicrosecondsPerInvocation="815" maxMicrosecondsPerInvocation="9010" standardDeviationMircosecondsPerInvocation="1401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="59" invocations="77" avgMicrosecondsPerInvocation="769" maxMicrosecondsPerInvocation="46217" standardDeviationMircosecondsPerInvocation="5224"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="50" invocations="833" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="6776" standardDeviationMircosecondsPerInvocation="376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="48" invocations="275" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="6263" standardDeviationMircosecondsPerInvocation="558"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="48" invocations="177" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="12931" standardDeviationMircosecondsPerInvocation="1003"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="48" invocations="395" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="2559" standardDeviationMircosecondsPerInvocation="237"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="42" invocations="340" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="3678" standardDeviationMircosecondsPerInvocation="314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="41" invocations="340" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="4624" standardDeviationMircosecondsPerInvocation="353"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
