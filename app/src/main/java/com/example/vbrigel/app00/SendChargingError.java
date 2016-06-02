@@ -90,7 +90,7 @@ public class SendChargingError extends Activity {
         View check = findViewById(R.id.editTextCharge);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
-            String commentText2 = (myInput2.getText().toString());
+                    String commentText2 = (myInput2.getText().toString());
             if (checked1)
                 message = message + "Laddstation ur funktion, ";
             if (checked2)

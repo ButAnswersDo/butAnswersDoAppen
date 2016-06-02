@@ -17,7 +17,6 @@ import android.widget.EditText;
  * @since   2016-05-11
  */
 public class SendClimateError extends AppCompatActivity {
-
     private Boolean checked1 = false;
     private Boolean checked2 = false;
     private Boolean checked3 = false;
@@ -67,7 +66,7 @@ public class SendClimateError extends AppCompatActivity {
      */
 
     public void helpNowClimate(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             String commentText = (myInput1.getText().toString());
@@ -90,7 +89,7 @@ public class SendClimateError extends AppCompatActivity {
      */
 
     public void helpLaterClimate(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
             String commentText2 = (myInput2.getText().toString());

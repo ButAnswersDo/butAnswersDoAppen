@@ -19,7 +19,6 @@ import com.firebase.client.Firebase;
  * @since   2016-05-11
  */
 public class SendDoorError extends AppCompatActivity{
-    private Firebase myFirebaseRef;
     private Boolean checkBox1 = false; //A boolean variable tied to each checkbox containing a quote.
     private Boolean checkBox2 = false;
     private Boolean checkBox3 = false;
@@ -35,7 +34,6 @@ public class SendDoorError extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_door1);
         Firebase.setAndroidContext(this);
-        myFirebaseRef = new Firebase("https://crackling-inferno-4580.firebaseio.com"); //Creates the database reference
     }
 
     /**
@@ -68,7 +66,7 @@ public class SendDoorError extends AppCompatActivity{
      * @param view Takes in a view(button) generated from the activity_send_door1.xml.
      */
     public void helpNowDoor(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             String commentText = (myInput1.getText().toString());
@@ -82,7 +80,6 @@ public class SendDoorError extends AppCompatActivity{
             message = ""; //Resets the message
             Intent popup = new Intent(this, PopUpClass.class);
             startActivity(popup);
-            onStop();
         }
     }
 
@@ -91,7 +88,8 @@ public class SendDoorError extends AppCompatActivity{
      * @param view Takes in a view(button) generated from the activity_send_door1.xml.
      */
     public void helpLaterDoor(View view) {
-        View check = findViewById(R.id.editTextCharge);
+
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
             String commentText2 = (myInput2.getText().toString());
@@ -105,7 +103,6 @@ public class SendDoorError extends AppCompatActivity{
             message = ""; //Resets the message
             Intent popup = new Intent(this, PopUpClass.class);
             startActivity(popup);
-            onStop();
         }
     }
 }

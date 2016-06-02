@@ -59,7 +59,7 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
      */
 
     public void helpNowTechnical1(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             String commentText = (myInput1.getText().toString());
@@ -82,7 +82,7 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
      */
 
     public void helpLaterTechnical1(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
             String commentText2 = (myInput2.getText().toString());
@@ -94,7 +94,6 @@ public class SendTechnicalErrorDisplay extends AppCompatActivity {
                 message = message + "Högtalare ur funktion, ";
             HelperClass.setMessage("Åtgärda felet ikväll! " + message + ", " + commentText2);
             message = "";
-
             Intent popup = new Intent(this, PopUpClass.class);
             startActivity(popup);
         }

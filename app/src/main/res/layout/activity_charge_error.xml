@@ -41,8 +41,6 @@
                 android:onClick="johannebergClicked"
                 android:id="@+id/johButton"
                 android:layout_gravity="center_horizontal" />
-
-
         </LinearLayout>
     </ScrollView>
 

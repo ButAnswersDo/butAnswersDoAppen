@@ -63,6 +63,5 @@ public class SubCategoryDoors extends AppCompatActivity {
     private void send(){
         Intent nextDoorError = new Intent(this, SendDoorError.class);
         startActivity(nextDoorError);
-        onStop();
     }
 }

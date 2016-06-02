@@ -46,7 +46,6 @@
             android:adjustViewBounds="false"
             android:layout_above="@+id/climate"
             android:layout_alignEnd="@+id/heading"
-            android:layout_alignTop="@+id/doorButton"
             android:onClick="onClickClimateButton" />
 
         <ImageButton
@@ -56,7 +55,7 @@
             android:id="@+id/driverButton"
             android:background="@drawable/driver"
             android:layout_below="@+id/door"
-            android:layout_alignStart="@+id/doorButton"
+            android:layout_alignLeft="@+id/doorButton"
             android:onClick="onClickDriverSeatButton" />
 
         <ImageButton
@@ -66,11 +65,9 @@
             android:id="@+id/technicalButton"
             android:background="@drawable/technical"
             android:cropToPadding="false"
-            android:adjustViewBounds="false"
             android:layout_alignTop="@+id/driverButton"
             android:layout_alignStart="@+id/climate"
             android:onClick="onClickTechnicalButton" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,9 +87,8 @@
             android:text="Klimatfel"
             android:id="@+id/climate"
             android:textAlignment="center"
-            android:textSize="17sp"
+            android:textSize="17dp"
             android:layout_alignEnd="@+id/climateButton"
-            android:layout_alignTop="@+id/door"
             android:layout_alignBottom="@+id/door"
             android:layout_alignStart="@+id/climateButton" />
 
@@ -118,7 +114,6 @@
             android:textSize="17sp"
             android:layout_below="@+id/technicalButton"
             android:layout_alignStart="@+id/technicalButton"
-            android:layout_alignBottom="@+id/driver"
             android:layout_alignEnd="@+id/technicalButton" />
 
         <ImageButton
@@ -127,7 +122,6 @@
             android:layout_height="120dp"
             android:cropToPadding="false"
             android:adjustViewBounds="false"
-            android:enabled="false"
             android:id="@+id/otherButton"
             android:background="@drawable/other"
             android:layout_below="@+id/techincal"
@@ -152,7 +146,6 @@
             android:layout_height="120dp"
             android:cropToPadding="false"
             android:adjustViewBounds="false"
-            android:enabled="false"
             android:id="@+id/electricityButton"
             android:background="@drawable/electricity"
             android:layout_below="@+id/driver"

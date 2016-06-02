@@ -57,7 +57,7 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
      */
 
     public void helpNowDriverSeat2(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput1 = (EditText) check;
             String commentText = (myInput1.getText().toString());
@@ -78,7 +78,7 @@ public class SendSeatErrorInstrumentBoard extends AppCompatActivity {
      */
 
     public void helpLaterDriverSeat2(View view) {
-        View check = findViewById(R.id.editTextCharge);
+        View check = findViewById(R.id.editText);
         if(check instanceof EditText) {
             final EditText myInput2 = (EditText) check;
             String commentText2 = (myInput2.getText().toString());
