@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 
+import org.w3c.dom.Text;
+
 
 /**
  * @author  butAnswersDo

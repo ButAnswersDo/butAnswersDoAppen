@@ -5,9 +5,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
+
     <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -24,9 +25,10 @@
         android:textStyle="bold" />
 
         <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/doorButton"
+            android:contentDescription="Dörrfel"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/doorButton"
             android:background="@drawable/door"
             android:onClick="onClickDoorButton"
             android:cropToPadding="false"
@@ -35,6 +37,7 @@
             android:layout_alignStart="@+id/heading" />
 
         <ImageButton
+            android:contentDescription="Klimatfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/climateButton"
@@ -46,6 +49,7 @@
             android:onClick="onClickClimateButton" />
 
         <ImageButton
+            android:contentDescription="Förarplatsfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/driverButton"
@@ -55,6 +59,7 @@
             android:onClick="onClickDriverSeatButton" />
 
         <ImageButton
+            android:contentDescription="Tekniskt fel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/technicalButton"
@@ -73,7 +78,7 @@
             android:layout_alignStart="@+id/doorButton"
             android:layout_alignEnd="@+id/driverButton"
             android:textAlignment="center"
-            android:textSize="17dp" />
+            android:textSize="17sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,7 +99,7 @@
             android:text="Förarplatsfel"
             android:id="@+id/driver"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/driverButton"
             android:layout_alignStart="@+id/door"
             android:layout_alignEnd="@+id/driverButton" />
@@ -106,12 +111,13 @@
             android:text="Tekniskt fel"
             android:id="@+id/techincal"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/technicalButton"
             android:layout_alignStart="@+id/technicalButton"
             android:layout_alignEnd="@+id/technicalButton" />
 
         <ImageButton
+            android:contentDescription="Annat fel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:cropToPadding="false"
@@ -129,12 +135,13 @@
             android:text="Annat fel"
             android:id="@+id/otherText"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/otherButton"
             android:layout_alignStart="@+id/otherButton"
             android:layout_alignEnd="@+id/otherButton" />
 
         <ImageButton
+            android:contentDescription="Laddningsfel"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:cropToPadding="false"
@@ -152,10 +159,11 @@
             android:text="Laddningsfel"
             android:id="@+id/elecText"
             android:textAlignment="center"
-            android:textSize="17dp"
+            android:textSize="17sp"
             android:layout_below="@+id/electricityButton"
             android:layout_alignStart="@+id/electricityButton"
             android:layout_alignEnd="@+id/electricityButton" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
