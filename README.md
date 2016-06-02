@@ -1,10 +1,12 @@
 # butAnswersDoAppen
-Android applikationen 55 problems - reporting made easy utvecklades i kursen Software Engineering Project (DAT255) på Chalmers Tekniska Högskola av utvecklingsteamet ButAnswersDo beståendes av Vincent Brigel, Anton Kärrman, Anton Ottosson, Axel Rebner, Olof Wireklint och David Åsenhielm. Utveckling skedde under kursens gång under april och maj månad 2016. Applikationen utvecklades i syfte att underlätta felrapporteringen för busslinje 55 som går i Göteborgs busstrafik. Applikationens utformning har baserats på en tydlig vision som tagits fram av projektgruppen och som varit underlag för utvecklingsprocessen.
 
-Applikationen använder sig av firebase men ingen kod är skriven där utan. Om tillgång önskas till gruppens firebase kan inbjudan skickas. 
+The Android application 55 problems - reporting made easy was developed during the course Software Engineering Project (DAT255) at Chalmers University of Technology. It was done by the development team ButAnswersDo consisting of Vincent Brigel, Anton Kärrman, Anton Ottosson, Axel Rebner, Olof Wireklint and David Åsenhielm. The application was developed to facilitate error reporting for bus line 55 in Gothenburg. The design is based on a clear vison that has been developed by the team and has laid the foundation for the development process. 
+
+The application sends data to a Firebase database. Access to the Firebase can be given to you on demand but the Firebase does not contain any code written by the team and thus should not be needed for any other purpose than to test the application. 
+
 
 # D1 
-The folder D1 contains the files from the D1 submission (initial vision, social contract and initial product backlog). Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please se the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
+The folder D1 contains the files from the D1 submission (initial vision, social contract and initial product backlog). Note that the uppload date is invalid. The files were correctly upploaded to a diffrent github repo. They were later on moved to this repo so that all files are within this repo. Please see the Screen Shot file at butAnswersDoAppen/D1/Screen Shot over the submission time of files at 13.30.37.png for the correct submission time of the files. 
 
 
 # D2 
