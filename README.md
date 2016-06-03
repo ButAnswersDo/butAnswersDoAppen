@@ -28,7 +28,7 @@ The file contains the backlogs from all four sprints.
 
 
 # Reflectionreport
-The reflectionreport can be found at butAnswersDoAppen/Reflektionsrapport ButAnswersDo PDF.pdf
+The reflectionreport can be found at butAnswersDoAppen/Reflektionsrapport ButAnswersDo.pdf
 
 
 # Vision
